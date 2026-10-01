@@ -1,0 +1,155 @@
+{
+ "schema": "anatomy-v2-takes/1",
+ "takes": {
+  "L001": {
+   "lineId": "L001",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/salem_001_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": "asr-scene-level",
+    "note": "scene-level ASR on SCENE01_newcast.mp3"
+   }
+  },
+  "L002": {
+   "lineId": "L002",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/rashid_002_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": "asr-scene-level",
+    "note": "scene-level ASR on SCENE01_newcast.mp3"
+   }
+  },
+  "L003": {
+   "lineId": "L003",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/salem_003_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": "asr-scene-level",
+    "note": "scene-level ASR on SCENE01_newcast.mp3"
+   }
+  },
+  "L004": {
+   "lineId": "L004",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/rashid_004_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": "asr-scene-level",
+    "note": "scene-level ASR on SCENE01_newcast.mp3"
+   }
+  },
+  "L005": {
+   "lineId": "L005",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/salem_005_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": "asr-scene-level",
+    "note": "scene-level ASR on SCENE01_newcast.mp3"
+   }
+  },
+  "L006": {
+   "lineId": "L006",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/noura_006_take2.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "D0sUluDnDiue2gPok6XF",
+    "model": "eleven_v3",
+    "take": 2
+   },
+   "qa": {
+    "method": "asr-per-line",
+    "note": "per-line ASR, exact match (lang conf 0.994)"
+   }
+  },
+  "L007": {
+   "lineId": "L007",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/rashid_007_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": "asr-scene-level",
+    "note": "scene-level ASR on SCENE01_newcast.mp3"
+   }
+  },
+  "L008": {
+   "lineId": "L008",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene01/salem_008_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": "asr-scene-level",
+    "note": "scene-level ASR on SCENE01_newcast.mp3"
+   }
+  },
+  "L009": {
+   "lineId": "L009",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene02/rashid_09_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": null,
+    "note": "awaiting per-line ASR verification before approval"
+   }
+  },
+  "L010": {
+   "lineId": "L010",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene02/rashid_010_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "take": 1
+   },
+   "qa": {
+    "method": null,
+    "note": "awaiting per-line ASR verification before approval"
+   }
+  }
+ }
+}

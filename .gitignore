@@ -9,3 +9,7 @@ output/frames/
 output/splice/
 output/qa/
 output/parts/
+
+# human voice recordings handed in for ingest (working area, not repo content)
+voice-drop/
+.voice-tmp/

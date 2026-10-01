@@ -28,9 +28,15 @@ export type SceneTimingAR = {
   linesTotal: number;
 };
 
+/**
+ * The animation's entire view of the voice track: a path, a duration, and the
+ * frames derived from them. Which provider produced the audio — ElevenLabs,
+ * OpenAI, or a person at a microphone — is deliberately not represented here
+ * and must never be added, so re-sourcing a voice cannot reach the animation.
+ */
 const data = timing as unknown as {
   fps: number;
-  voiceConfig: unknown;
+  cast: Record<string, {characterId: string; displayNameAr: string}>;
   scenes: Record<string, SceneTimingAR>;
 };
 

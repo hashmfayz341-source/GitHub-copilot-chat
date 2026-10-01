@@ -1,0 +1,176 @@
+{
+ "schema": "anatomy-v2-cast/1",
+ "episode": "Introduction to Anatomy — Lecture 1 (ar-SA)",
+ "note": "Provider-neutral. The video pipeline never reads this file; it exists so a voice can be re-sourced from any provider, or recorded by a human, without the animation changing. Only scripts/voice/* reads it.",
+
+ "defaults": {
+  "language": "ar-SA",
+  "outputFormat": {"container": "mp3", "codec": "libmp3lame", "sampleRate": 44100, "channels": 1, "bitrateKbps": 128},
+  "loudnessTargetLufs": -18,
+  "approvedAudioRoot": "public/audio/v2-ar"
+ },
+
+ "providerPriority": ["elevenlabs", "openai", "manual"],
+
+ "pronunciation": {
+  "note": "Medical terminology stays English inside the Arabic sentence and must not be Arabized, inflected or translated. Adapters apply these as provider-specific hints; none of them may alter the written line.",
+  "keepEnglish": [
+   "Anatomy", "Gross anatomy", "Macroscopic anatomy", "Histology", "Cytology", "Microscopic anatomy",
+   "Anatomical position", "Plane", "Section", "Sagittal", "Midsagittal", "Coronal", "Frontal",
+   "Transverse", "Horizontal", "Axial", "Anterior", "Posterior", "Ventral", "Dorsal",
+   "Superior", "Inferior", "Medial", "Lateral", "Proximal", "Distal", "Superficial", "Deep",
+   "Flexion", "Extension", "Abduction", "Adduction", "Circumduction",
+   "Medial rotation", "Lateral rotation", "Pronation", "Supination",
+   "Protraction", "Retraction", "Dorsiflexion", "Plantar flexion",
+   "Inversion", "Eversion", "Elevation", "Depression", "Patient right", "Patient left"
+  ],
+  "overrides": [
+   {"term": "Sagittal", "ipa": "ˈsædʒɪtəl", "say": "SAJ-i-tal"},
+   {"term": "Coronal", "ipa": "kəˈroʊnəl", "say": "ko-ROH-nal"},
+   {"term": "Supination", "ipa": "ˌsuːpɪˈneɪʃən", "say": "soo-pi-NAY-shun"},
+   {"term": "Pronation", "ipa": "proʊˈneɪʃən", "say": "pro-NAY-shun"},
+   {"term": "Eversion", "ipa": "ɪˈvɜːrʒən", "say": "ee-VER-zhun"},
+   {"term": "Inversion", "ipa": "ɪnˈvɜːrʒən", "say": "in-VER-zhun"}
+  ]
+ },
+
+ "characters": {
+  "Rashid": {
+   "characterId": "rashid",
+   "displayNameAr": "راشد",
+   "role": "Saudi host — explains, corrects, never condescends",
+   "measuredF0Hz": 133,
+   "approvedAudio": {
+    "dir": "audio/v2-ar",
+    "reference": "audio/v2-ar/scene01/rashid_002_take1.mp3"
+   },
+   "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "profileId": null,
+    "generationInstructions": "Saudi Arabic, educated and unhurried. Warm teaching register, never lecturing or theatrical. Let clauses land; do not rush the retrieval pauses. Keep English medical terms in clear English pronunciation inside the Arabic sentence.",
+    "speed": 1.0,
+    "style": {"tone": "calm", "energy": "low-medium", "warmth": "high"},
+    "pronunciation": [],
+    "outputFormat": {"container": "mp3", "sampleRate": 44100, "channels": 1, "bitrateKbps": 128}
+   },
+   "voiceAlternates": [
+    {
+     "provider": "openai",
+     "voiceId": "onyx",
+     "profileId": null,
+     "model": "gpt-4o-mini-tts",
+     "generationInstructions": "Speak Saudi Arabic as an educated, unhurried male host in his thirties. Warm teaching register, never theatrical. Pronounce English medical terms in clear English.",
+     "speed": 0.98,
+     "style": {"tone": "calm", "energy": "low-medium", "warmth": "high"},
+     "pronunciation": [],
+     "outputFormat": {"container": "mp3", "sampleRate": 44100, "channels": 1, "bitrateKbps": 128}
+    },
+    {
+     "provider": "manual",
+     "voiceId": null,
+     "profileId": "rashid-human",
+     "generationInstructions": "Male, Saudi dialect, 25-40. Calm, warm, unhurried. Record one line per file, quiet room, no processing, no music. Leave the scripted pause silent rather than filling it.",
+     "speed": 1.0,
+     "style": {"tone": "calm", "energy": "low-medium", "warmth": "high"},
+     "pronunciation": [],
+     "outputFormat": {"container": "wav", "sampleRate": 48000, "channels": 1}
+    }
+   ]
+  },
+
+  "Salem": {
+   "characterId": "salem",
+   "displayNameAr": "سالم",
+   "role": "Saudi friend — confident, wrong, funny, never stupid",
+   "measuredF0Hz": 181,
+   "approvedAudio": {
+    "dir": "audio/v2-ar",
+    "reference": "audio/v2-ar/scene01/salem_001_take1.mp3"
+   },
+   "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "profileId": null,
+    "generationInstructions": "Saudi Arabic, younger and brighter than Rashid. Casual, quick, confident even when wrong. Comic timing comes from certainty, never from mugging. One line is sung briefly and badly on purpose — keep it human and short, not a performance.",
+    "speed": 1.0,
+    "style": {"tone": "casual", "energy": "high", "warmth": "medium"},
+    "pronunciation": [],
+    "outputFormat": {"container": "mp3", "sampleRate": 44100, "channels": 1, "bitrateKbps": 128}
+   },
+   "voiceAlternates": [
+    {
+     "provider": "openai",
+     "voiceId": "ash",
+     "profileId": null,
+     "model": "gpt-4o-mini-tts",
+     "generationInstructions": "Speak Saudi Arabic as a younger male friend, casual and quick, confident even when wrong. Light comic timing from certainty, not from exaggeration.",
+     "speed": 1.03,
+     "style": {"tone": "casual", "energy": "high", "warmth": "medium"},
+     "pronunciation": [],
+     "outputFormat": {"container": "mp3", "sampleRate": 44100, "channels": 1, "bitrateKbps": 128}
+    },
+    {
+     "provider": "manual",
+     "voiceId": null,
+     "profileId": "salem-human",
+     "generationInstructions": "Male, Saudi dialect, 20-30. Brighter and quicker than Rashid. Confident even when wrong. Record one line per file, quiet room, no processing.",
+     "speed": 1.0,
+     "style": {"tone": "casual", "energy": "high", "warmth": "medium"},
+     "pronunciation": [],
+     "outputFormat": {"container": "wav", "sampleRate": 48000, "channels": 1}
+    }
+   ]
+  },
+
+  "Noura": {
+   "characterId": "noura",
+   "displayNameAr": "نورة",
+   "role": "Saudi colleague — dry, precise, lands the correction in one line",
+   "measuredF0Hz": 250,
+   "approvedAudio": {
+    "dir": "audio/v2-ar",
+    "reference": "audio/v2-ar/scene01/noura_006_take2.mp3"
+   },
+   "voice": {
+    "provider": "elevenlabs",
+    "voiceId": "D0sUluDnDiue2gPok6XF",
+    "profileId": null,
+    "generationInstructions": "Saudi Arabic, female, dry and composed. She does not raise her voice to be funny; the line is funny because it is flat and correct. Short, unimpressed, never sarcastic-cruel.",
+    "speed": 1.0,
+    "style": {"tone": "dry", "energy": "low", "warmth": "medium-low"},
+    "pronunciation": [],
+    "outputFormat": {"container": "mp3", "sampleRate": 44100, "channels": 1, "bitrateKbps": 128}
+   },
+   "voiceAlternates": [
+    {
+     "provider": "openai",
+     "voiceId": "sage",
+     "profileId": null,
+     "model": "gpt-4o-mini-tts",
+     "generationInstructions": "Speak Saudi Arabic as a composed female colleague. Dry and flat, unimpressed, never shouted and never cruel. The humour is in the flatness.",
+     "speed": 1.0,
+     "style": {"tone": "dry", "energy": "low", "warmth": "medium-low"},
+     "pronunciation": [],
+     "outputFormat": {"container": "mp3", "sampleRate": 44100, "channels": 1, "bitrateKbps": 128}
+    },
+    {
+     "provider": "manual",
+     "voiceId": null,
+     "profileId": "noura-human",
+     "generationInstructions": "Female, Saudi dialect, 25-40. Dry, composed, flat delivery. Do not play it for laughs. Record one line per file, quiet room, no processing.",
+     "speed": 1.0,
+     "style": {"tone": "dry", "energy": "low", "warmth": "medium-low"},
+     "pronunciation": [],
+     "outputFormat": {"container": "wav", "sampleRate": 48000, "channels": 1}
+    }
+   ]
+  }
+ },
+
+ "retired": {
+  "note": "Discarded during casting. Never reinstate without an explicit direction to do so.",
+  "elevenlabsLibraryVoices": ["etJo0VNXVmjmd5XDR7lJ", "OoE8swS3hImZANNOodf6", "dYnGGqiuxHfLuVGVGIbi"],
+  "englishV1Narrator": "V1 English narration is a different edition and is never a fallback for V2."
+ }
+}

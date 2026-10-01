@@ -1,40 +1,20 @@
 {
  "fps": 30,
- "voiceConfig": {
-  "version": "v2-designed-2026-10-01",
-  "model_id": "eleven_v3",
-  "generations_count": 1,
-  "exposed_parameters": "voice_id, model_id, generations_count, prompt only -- this MCP connector exposes no stability/style/speed/similarity fields",
-  "characters": {
-   "Rashid": {
-    "voice_id": "9Pf8YHvYti7L3mjDAa4d",
-    "name": "Rashid — Anatomy V2 (Saudi host)",
-    "origin": "designed via eleven_ttv_v3, workspace-owned",
-    "tag": "[calm]",
-    "measured_f0_hz": 133
-   },
-   "Salem": {
-    "voice_id": "TiWmvwCGis5iNuIkgk46",
-    "name": "Salem — Anatomy V2 (Saudi friend)",
-    "origin": "designed via eleven_ttv_v3, workspace-owned",
-    "tag": "[casually]",
-    "measured_f0_hz": 181
-   },
-   "Noura": {
-    "voice_id": "D0sUluDnDiue2gPok6XF",
-    "name": "Noura — Anatomy V2 (Saudi, dry calm)",
-    "origin": "designed via eleven_ttv_v3, workspace-owned",
-    "tag": "[dryly]",
-    "measured_f0_hz": 250
-   }
+ "cast": {
+  "Rashid": {
+   "characterId": "rashid",
+   "displayNameAr": "راشد"
   },
-  "retired_library_voices": [
-   "etJo0VNXVmjmd5XDR7lJ",
-   "OoE8swS3hImZANNOodf6",
-   "dYnGGqiuxHfLuVGVGIbi"
-  ]
+  "Salem": {
+   "characterId": "salem",
+   "displayNameAr": "سالم"
+  },
+  "Noura": {
+   "characterId": "noura",
+   "displayNameAr": "نورة"
+  }
  },
- "generatedFrom": "anatomy_voice/manifest.json (real audio durations via ffprobe)",
+ "generatedFrom": "final approved audio measured with ffprobe (vendor-independent)",
  "scenes": {
   "1": {
    "scene": 1,
@@ -170,9 +150,9 @@
    ],
    "duration": 27.06,
    "status": "ready",
-   "durationInFrames": 812,
    "linesFinal": 8,
-   "linesTotal": 8
+   "linesTotal": 8,
+   "durationInFrames": 812
   },
   "2": {
    "scene": 2,
@@ -185,7 +165,7 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "RENDERED"
+     "status": "PENDING"
     },
     {
      "lineId": "L010",
@@ -195,7 +175,7 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "RENDERED"
+     "status": "PENDING"
     },
     {
      "lineId": "L011",
