@@ -2,6 +2,7 @@ import React from 'react';
 import {SC01_GroupRight} from '../scenes/SC01_GroupRight';
 import {SC02_ScaleStory} from '../scenes/SC02_ScaleStory';
 import {SC03_AnatomicalPosition} from '../scenes/SC03_AnatomicalPosition';
+import {SC04_SagittalPlane} from '../scenes/SC04_SagittalPlane';
 import {sceneAR, sceneFramesAR, sceneReadyAR} from '../timing/beats-ar';
 
 /**
@@ -35,7 +36,7 @@ export const SCENES_AR: SceneMetaAR[] = [
    purpose: 'الوقفة المرجعية ثابتة حتى لو تغيّرت وضعية المريض.',
    memoryHook: 'سالم هو من يلاحظ أن الكفوف غلط.',
    misconception: 'المرجع يتغيّر لو انسدح المريض.'},
-  {scene: 4, id: 'sc04-sagittal', titleAr: 'جدار بالنص… لكنه مو صاحب البيت', terms: ['Plane', 'Section', 'Sagittal', 'Midsagittal'],
+  {scene: 4, component: SC04_SagittalPlane, id: 'sc04-sagittal', titleAr: 'جدار بالنص… لكنه مو صاحب البيت', terms: ['Plane', 'Section', 'Sagittal', 'Midsagittal'],
    purpose: 'الفصل بين اتجاه الـplane وموقعه، وبين plane وsection.',
    memoryHook: 'سالم يسأل عن اسم الجدار بعد إزاحته.',
    misconception: 'كل Sagittal ليس Midsagittal؛ ونصفا الجسم لا يعنيان تطابق الأعضاء.'},

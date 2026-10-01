@@ -20,6 +20,26 @@ import {colorAR} from '../design/theme-ar';
 
 export type Side = 'patientRight' | 'patientLeft';
 
+export const CAM_DISTANCE = 1400;
+
+/**
+ * The body's own yaw projection, shared so anything drawn ON the body (a plane,
+ * an axis, a marker) lands in the same space the body does. Duplicating this
+ * maths per scene is how a plane ends up visibly off the anatomy it cuts.
+ */
+export const yawProject = (yawDeg: number) => {
+  const rad = (yawDeg * Math.PI) / 180;
+  const c = Math.cos(rad);
+  const s = Math.sin(rad);
+  const prj = (bx: number, bz = 0) => {
+    const X = bx * c + bz * s;
+    const Z = -bx * s + bz * c;
+    const k = CAM_DISTANCE / (CAM_DISTANCE - Z);
+    return {x: X * k, z: Z, k};
+  };
+  return {c, s, prj, px: (bx: number, bz = 0) => prj(bx, bz).x};
+};
+
 /** body-space half-widths / half-depths, in model units */
 const TORSO_W = 62;
 const TORSO_D = 34;
