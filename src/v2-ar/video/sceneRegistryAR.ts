@@ -1,5 +1,6 @@
 import React from 'react';
 import {SC01_GroupRight} from '../scenes/SC01_GroupRight';
+import {SC02_ScaleStory} from '../scenes/SC02_ScaleStory';
 import {sceneAR, sceneFramesAR, sceneReadyAR} from '../timing/beats-ar';
 
 /**
@@ -25,7 +26,7 @@ export const SCENES_AR: SceneMetaAR[] = [
    purpose: 'الحاجة لمرجع موحد؛ أوامر القروب غير الدقيقة لا تحدد patient right.',
    memoryHook: 'سالم أنشأ قروبًا لتنظيم الجسم، لكن أول أمر لا يحدد منظور اليمين.',
    misconception: 'يمين الشاشة ليس يمين صاحب الجسم.', component: SC01_GroupRight},
-  {scene: 2, id: 'sc02-scale', titleAr: 'القروب طلع أكبر مما توقعنا', terms: ['Gross anatomy', 'Macroscopic anatomy', 'Histology', 'Cytology', 'Microscopic anatomy'],
+  {scene: 2, component: SC02_ScaleStory, id: 'sc02-scale', titleAr: 'القروب طلع أكبر مما توقعنا', terms: ['Gross anatomy', 'Macroscopic anatomy', 'Histology', 'Cytology', 'Microscopic anatomy'],
    purpose: 'تعريف العلم الحديث ومعنى Histology/Cytology عبر تغيّر مستوى النظر.',
    memoryHook: 'كل ما قرّبت الصورة، دخل أعضاء جدد في القروب.',
    misconception: 'الـAnatomy ليست بالضرورة قطعًا فعليًا.'},
