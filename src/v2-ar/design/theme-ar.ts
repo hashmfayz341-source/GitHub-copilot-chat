@@ -78,6 +78,12 @@ export const colorAR = {
   /** Patient-right marker — must read as belonging to the BODY, never the camera. */
   patientRight: '#FFB547',
   patientLeft: '#4DA3FF',
+
+  /** The sole of the foot: the only direction reference in inversion/eversion. */
+  soleDark: '#8E5F3C',
+  soleTread: '#F4E3CF',
+
+  textDim: '#9DB0BE',
 } as const;
 
 export const fontAR = {
