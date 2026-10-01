@@ -1,0 +1,90 @@
+name: Publish anatomy video release
+
+# One-time publisher: rebuilds the final MP4 from byte-split parts on the
+# video-release-staging branch, verifies it bit-for-bit, and attaches it to a
+# GitHub Release. Runs once when this file lands on master; can be re-run manually.
+on:
+  push:
+    branches: [master]
+    paths: ['.github/workflows/publish-anatomy-video.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-anatomy-video
+  cancel-in-progress: false
+
+env:
+  TAG: anatomy-video-v1
+  TITLE: Introduction to Anatomy – Final Video
+  TARGET: 824b0e75f47d0c69642da7473a8056fc7894ce33
+  FILE: introduction-to-anatomy.mp4
+  EXPECTED_SHA256: a032a326fb1ab5b913afb0e932b9f6ca1c92c1c29abb4090138693ddf6d60266
+  EXPECTED_SIZE: '151720042'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Check out staging parts
+        uses: actions/checkout@v4
+        with:
+          ref: video-release-staging
+          path: staging
+
+      - name: Reassemble MP4 from parts (exact byte order)
+        run: |
+          set -euo pipefail
+          ls -l staging/release-parts
+          # part-00, part-01, … sort lexically = numerically (fixed 2-digit suffix)
+          find staging/release-parts -maxdepth 1 -type f -name 'part-*' | LC_ALL=C sort | xargs cat > "$FILE"
+
+      - name: Verify size and SHA-256 (fail on any mismatch)
+        run: |
+          set -euo pipefail
+          size=$(stat -c %s "$FILE")
+          sum=$(sha256sum "$FILE" | cut -d' ' -f1)
+          echo "size=$size sha256=$sum"
+          [ "$size" = "$EXPECTED_SIZE" ] || { echo "::error::size $size != $EXPECTED_SIZE"; exit 1; }
+          [ "$sum" = "$EXPECTED_SHA256" ] || { echo "::error::sha256 $sum != $EXPECTED_SHA256"; exit 1; }
+
+      - name: Create release and upload asset
+        run: |
+          set -euo pipefail
+          notes="Final rendered motion-graphics lecture: Introduction to Anatomy (Lecture 1, Anatomy & Embryology).
+
+          - 1920×1080, 30 fps, H.264 + AAC, 703.9 s (21,117 frames)
+          - Size: ${EXPECTED_SIZE} bytes
+          - SHA-256: ${EXPECTED_SHA256}
+          - Source commit: ${TARGET}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release exists; replacing asset"
+            gh release upload "$TAG" "$FILE" --clobber
+          else
+            gh release create "$TAG" "$FILE" --target "$TARGET" --title "$TITLE" --notes "$notes"
+          fi
+
+      - name: Verify uploaded asset (size via API, SHA-256 via download)
+        run: |
+          set -euo pipefail
+          api_size=$(gh release view "$TAG" --json assets --jq ".assets[] | select(.name==\"$FILE\") | .size")
+          echo "asset size reported by API: $api_size"
+          [ "$api_size" = "$EXPECTED_SIZE" ] || { echo "::error::asset size $api_size != $EXPECTED_SIZE"; exit 1; }
+          mkdir -p verify
+          gh release download "$TAG" --pattern "$FILE" --dir verify
+          dl_sum=$(sha256sum "verify/$FILE" | cut -d' ' -f1)
+          echo "downloaded asset sha256: $dl_sum"
+          [ "$dl_sum" = "$EXPECTED_SHA256" ] || { echo "::error::downloaded sha256 mismatch"; exit 1; }
+          url=$(gh release view "$TAG" --json url --jq .url)
+          {
+            echo "### Release verified"
+            echo "- Release: $url"
+            echo "- Asset: https://github.com/$GH_REPO/releases/download/$TAG/$FILE"
+            echo "- Size: $api_size bytes"
+            echo "- SHA-256: $dl_sum ✅"
+          } >> "$GITHUB_STEP_SUMMARY"
