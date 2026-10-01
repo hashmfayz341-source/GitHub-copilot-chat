@@ -1,15 +1,15 @@
+
+# human voice recordings handed in for ingest (working area, not repo content)
+*.log
+.DS_Store
+.tts-cache/
+.voice-tmp/
 node_modules/
 out/
 output/*.mp4
 output/*.png
 output/frames/
-*.log
-.DS_Store
-.tts-cache/
-output/splice/
-output/qa/
 output/parts/
-
-# human voice recordings handed in for ingest (working area, not repo content)
+output/qa/
+output/splice/
 voice-drop/
-.voice-tmp/

@@ -21,7 +21,18 @@ export const available = () =>
     : {ok: false, reason: 'ELEVENLABS_API_KEY is not set (the chat MCP connector is not scriptable)'};
 
 /** Neutral delivery → this vendor's inline audio tag. */
-const TAG = {calm: '[calm]', casual: '[casually]', dry: '[dryly]', singing: '[singing]'};
+export const TAG = {
+  calm: '[calm]',
+  casual: '[casually]',
+  dry: '[dryly]',
+  question: '[thoughtfully]',
+  curious: '[curious]',
+  amused: '[amused]',
+  confident: '[confidently]',
+  correcting: '[firmly]',
+  dramatic: '[dramatically]',
+  singing: '[singing]',
+};
 
 export const synthesize = async ({line, binding, outDir}) => {
   const key = process.env.ELEVENLABS_API_KEY;

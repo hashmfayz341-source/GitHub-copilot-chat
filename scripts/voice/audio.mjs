@@ -47,26 +47,48 @@ export const measureLufs = (file) => {
   return m.length ? Number(m[m.length - 1][1]) : null;
 };
 
-/**
- * Normalise a raw take to the project's delivery format and loudness.
- *
- * Pure gain, never a compressor or a limiter: matching loudness must not change
- * how a performance was delivered, and a human recording would be audibly
- * flattened by dynamics processing that a TTS take would barely show.
- */
-export const finalize = (src, dest, fmt, targetLufs = -18) => {
-  fs.mkdirSync(path.dirname(dest), {recursive: true});
-  const lufs = measureLufs(src);
-  const gainDb = lufs === null ? 0 : Number((targetLufs - lufs).toFixed(2));
+/** True peak (dBTP) — catches the intersample peaks a sample-peak reading misses. */
+export const measureTruePeak = (file) => {
+  const out = ffmpegStderr(['-v', 'info', '-i', file, '-af', 'ebur128=peak=true', '-f', 'null', '-']);
+  const block = out.slice(out.lastIndexOf('Peak:'));
+  const m = block.match(/Peak:\s*(-?\d+(?:\.\d+)?|-inf)/);
+  return m ? (m[1] === '-inf' ? -Infinity : Number(m[1])) : null;
+};
 
-  const filters = [`volume=${gainDb}dB`];
-  const args = ['-y', '-v', 'error', '-i', src, '-af', filters.join(','), '-ac', String(fmt.channels ?? 1), '-ar', String(fmt.sampleRate ?? 44100)];
-  if ((fmt.container ?? 'mp3') === 'mp3') args.push('-c:a', 'libmp3lame', '-b:a', `${fmt.bitrateKbps ?? 128}k`);
-  else if (fmt.container === 'wav') args.push('-c:a', 'pcm_s16le');
+export const measure = (file) => ({
+  duration: ffprobeDuration(file),
+  lufs: measureLufs(file),
+  truePeakDb: measureTruePeak(file),
+});
+
+/**
+ * Write a delivery copy of a take with a fixed gain applied.
+ *
+ * Gain only — never a compressor, limiter or per-line loudness normaliser.
+ * Normalising every line to the same number would erase the performance: an
+ * emphatic line is *supposed* to sit above a muttered one, and in this episode
+ * the characters are supposed to sit at different levels from each other.
+ * Balancing therefore happens per character, over a whole character's lines at
+ * once, not per line — see balance.mjs.
+ */
+export const render = (src, dest, fmt, gainDb = 0) => {
+  fs.mkdirSync(path.dirname(dest), {recursive: true});
+  const args = ['-y', '-v', 'error', '-i', src];
+  if (gainDb !== 0) args.push('-af', `volume=${gainDb}dB`);
+  args.push('-ac', String(fmt.channels ?? 1), '-ar', String(fmt.sampleRate ?? 44100));
+  if ((fmt.container ?? 'mp3') === 'mp3') args.push('-c:a', 'libmp3lame', '-b:a', `${fmt.bitrateKbps ?? 192}k`);
+  else if (fmt.container === 'wav') args.push('-c:a', 'pcm_s24le');
   args.push(dest);
   execFileSync('ffmpeg', args, {stdio: ['ignore', 'ignore', 'pipe']});
+  return {gainDb, ...measure(dest)};
+};
 
-  return {gainDb, sourceLufs: lufs, finalLufs: measureLufs(dest), duration: ffprobeDuration(dest)};
+/** Back-compat for the manual-ingest path: one take, one gain to a target. */
+export const finalize = (src, dest, fmt, targetLufs = -18) => {
+  const lufs = measureLufs(src);
+  const gainDb = lufs === null ? 0 : Number((targetLufs - lufs).toFixed(2));
+  const r = render(src, dest, fmt, gainDb);
+  return {gainDb, sourceLufs: lufs, finalLufs: r.lufs, duration: r.duration};
 };
 
 /** Reject a take that is empty, clipped throughout, or obviously truncated. */

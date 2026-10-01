@@ -12,8 +12,12 @@
     "take": 1
    },
    "qa": {
-    "method": "asr-scene-level",
-    "note": "scene-level ASR on SCENE01_newcast.mp3"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 16.2,
+    "medianF0Hz": 183.9,
+    "truePeakDb": -0.7,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:23.325Z"
    }
   },
   "L002": {
@@ -27,8 +31,11 @@
     "take": 1
    },
    "qa": {
-    "method": "asr-scene-level",
-    "note": "scene-level ASR on SCENE01_newcast.mp3"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 13.7,
+    "medianF0Hz": 136.2,
+    "truePeakDb": -1.9,
+    "checkedAt": "2026-10-01T20:23:23.767Z"
    }
   },
   "L003": {
@@ -42,8 +49,12 @@
     "take": 1
    },
    "qa": {
-    "method": "asr-scene-level",
-    "note": "scene-level ASR on SCENE01_newcast.mp3"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 9.1,
+    "medianF0Hz": 205.1,
+    "truePeakDb": -0.2,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:24.178Z"
    }
   },
   "L004": {
@@ -57,8 +68,11 @@
     "take": 1
    },
    "qa": {
-    "method": "asr-scene-level",
-    "note": "scene-level ASR on SCENE01_newcast.mp3"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 13.3,
+    "medianF0Hz": 130.1,
+    "truePeakDb": -1.4,
+    "checkedAt": "2026-10-01T20:23:24.659Z"
    }
   },
   "L005": {
@@ -72,8 +86,12 @@
     "take": 1
    },
    "qa": {
-    "method": "asr-scene-level",
-    "note": "scene-level ASR on SCENE01_newcast.mp3"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 12.8,
+    "medianF0Hz": 183.9,
+    "truePeakDb": -0.9,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:25.087Z"
    }
   },
   "L006": {
@@ -87,8 +105,12 @@
     "take": 2
    },
    "qa": {
-    "method": "asr-per-line",
-    "note": "per-line ASR, exact match (lang conf 0.994)"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 11.2,
+    "medianF0Hz": 250,
+    "truePeakDb": -0.6,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:25.533Z"
    }
   },
   "L007": {
@@ -102,8 +124,12 @@
     "take": 1
    },
    "qa": {
-    "method": "asr-scene-level",
-    "note": "scene-level ASR on SCENE01_newcast.mp3"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 13.2,
+    "medianF0Hz": 133.3,
+    "truePeakDb": -0.9,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:26.087Z"
    }
   },
   "L008": {
@@ -117,14 +143,18 @@
     "take": 1
    },
    "qa": {
-    "method": "asr-scene-level",
-    "note": "scene-level ASR on SCENE01_newcast.mp3"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 19.4,
+    "medianF0Hz": 190.5,
+    "truePeakDb": -0.9,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:26.515Z"
    }
   },
   "L009": {
    "lineId": "L009",
    "status": "RENDERED",
-   "audioFile": "audio/v2-ar/scene02/rashid_09_take1.mp3",
+   "audioFile": "audio/v2-ar/scene02/rashid_009_take1.mp3",
    "provenance": {
     "provider": "elevenlabs",
     "voiceId": "9Pf8YHvYti7L3mjDAa4d",
@@ -132,8 +162,11 @@
     "take": 1
    },
    "qa": {
-    "method": null,
-    "note": "awaiting per-line ASR verification before approval"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 14.8,
+    "medianF0Hz": 141.6,
+    "truePeakDb": -1.1,
+    "checkedAt": "2026-10-01T20:23:27.140Z"
    }
   },
   "L010": {
@@ -147,8 +180,202 @@
     "take": 1
    },
    "qa": {
-    "method": null,
-    "note": "awaiting per-line ASR verification before approval"
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 14.7,
+    "medianF0Hz": 150.9,
+    "truePeakDb": -0.9,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:27.635Z"
+   }
+  },
+  "L011": {
+   "lineId": "L011",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene02/salem_011_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene02/L011_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "curious",
+    "take": 1,
+    "producedAt": "2026-10-01T20:18:14.055Z"
+   },
+   "audio": {
+    "duration": 1.881,
+    "lufs": -13.8,
+    "truePeakDb": -0.8,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 14.4,
+    "medianF0Hz": 195.1,
+    "truePeakDb": -1.2,
+    "checkedAt": "2026-10-01T20:23:28.077Z"
+   }
+  },
+  "L013": {
+   "lineId": "L013",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene02/salem_013_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene02/L013_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "amused",
+    "take": 1,
+    "producedAt": "2026-10-01T20:18:15.617Z"
+   },
+   "audio": {
+    "duration": 2.038,
+    "lufs": -13.5,
+    "truePeakDb": -0.7,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 14.2,
+    "medianF0Hz": 173.9,
+    "truePeakDb": -1.1,
+    "checkedAt": "2026-10-01T20:23:28.502Z"
+   }
+  },
+  "L062": {
+   "lineId": "L062",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene08/noura_062_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene08/L062_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "D0sUluDnDiue2gPok6XF",
+    "model": "eleven_v3",
+    "delivery": "dry",
+    "take": 1,
+    "producedAt": "2026-10-01T20:19:05.790Z"
+   },
+   "audio": {
+    "duration": 5.878,
+    "lufs": -13.6,
+    "truePeakDb": -1,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 10.5,
+    "medianF0Hz": 280.7,
+    "truePeakDb": -1.4,
+    "checkedAt": "2026-10-01T20:23:29.090Z"
+   }
+  },
+  "L014": {
+   "lineId": "L014",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene02/rashid_014_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene02/L014_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "delivery": "question",
+    "take": 1,
+    "producedAt": "2026-10-01T20:20:55.613Z"
+   },
+   "audio": {
+    "duration": 5.146,
+    "lufs": -18.6,
+    "truePeakDb": -1.1,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 13.8,
+    "medianF0Hz": 132.2,
+    "truePeakDb": -1.5,
+    "checkedAt": "2026-10-01T20:23:29.659Z"
+   }
+  },
+  "L015": {
+   "lineId": "L015",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene02/salem_015_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene02/L015_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "confident",
+    "take": 1,
+    "producedAt": "2026-10-01T20:20:56.529Z"
+   },
+   "audio": {
+    "duration": 2.691,
+    "lufs": -11.8,
+    "truePeakDb": -0.4,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 12.6,
+    "medianF0Hz": 195.1,
+    "truePeakDb": -0.9,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-01T20:23:30.135Z"
+   }
+  },
+  "L016": {
+   "lineId": "L016",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene03/rashid_016_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene03/L016_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "delivery": "calm",
+    "take": 1,
+    "producedAt": "2026-10-01T20:20:57.634Z"
+   },
+   "audio": {
+    "duration": 7.314,
+    "lufs": -15.7,
+    "truePeakDb": -0.8,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 13,
+    "medianF0Hz": 139.1,
+    "truePeakDb": -1.2,
+    "checkedAt": "2026-10-01T20:23:30.711Z"
+   }
+  },
+  "L017": {
+   "lineId": "L017",
+   "status": "RENDERED",
+   "audioFile": "audio/v2-ar/scene03/salem_017_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene03/L017_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "curious",
+    "take": 1,
+    "producedAt": "2026-10-01T20:20:58.525Z"
+   },
+   "audio": {
+    "duration": 1.228,
+    "lufs": -14,
+    "truePeakDb": -0.9,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 12.2,
+    "medianF0Hz": 177.8,
+    "truePeakDb": -1.3,
+    "checkedAt": "2026-10-01T20:23:31.089Z"
    }
   }
  }
