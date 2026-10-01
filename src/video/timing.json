@@ -1,0 +1,686 @@
+{
+ "fps": 30,
+ "scenes": {
+  "hook": {
+   "duration": 35.131,
+   "beats": {
+    "patient": {
+     "start": 0.6,
+     "end": 6.554
+    },
+    "above": {
+     "start": 7.004,
+     "end": 14.074
+    },
+    "chaos": {
+     "start": 15.324,
+     "end": 20.578
+    },
+    "language": {
+     "start": 21.028,
+     "end": 30.448
+    },
+    "fluent": {
+     "start": 30.898,
+     "end": 34.131
+    }
+   }
+  },
+  "objectives": {
+   "duration": 25.088,
+   "beats": {
+    "title": {
+     "start": 0.6,
+     "end": 2.104
+    },
+    "o1": {
+     "start": 3.454,
+     "end": 7.733
+    },
+    "o2": {
+     "start": 8.183,
+     "end": 12.146
+    },
+    "o3": {
+     "start": 12.596,
+     "end": 15.685
+    },
+    "o4": {
+     "start": 16.136,
+     "end": 19.768
+    },
+    "o5": {
+     "start": 20.218,
+     "end": 24.088
+    }
+   }
+  },
+  "whatIsAnatomy": {
+   "duration": 37.474,
+   "beats": {
+    "word": {
+     "start": 0.6,
+     "end": 6.922
+    },
+    "began": {
+     "start": 7.372,
+     "end": 12.152
+    },
+    "gross": {
+     "start": 12.602,
+     "end": 21.568
+    },
+    "micro": {
+     "start": 22.018,
+     "end": 28.042
+    },
+    "histo": {
+     "start": 28.492,
+     "end": 31.081
+    },
+    "cyto": {
+     "start": 31.531,
+     "end": 33.634
+    },
+    "stay": {
+     "start": 34.084,
+     "end": 36.474
+    }
+   }
+  },
+  "roadmap": {
+   "duration": 14.74,
+   "beats": {
+    "route": {
+     "start": 0.6,
+     "end": 1.582
+    },
+    "s1": {
+     "start": 2.032,
+     "end": 4.322
+    },
+    "s2": {
+     "start": 4.772,
+     "end": 6.713
+    },
+    "s3": {
+     "start": 7.163,
+     "end": 8.601
+    },
+    "s4": {
+     "start": 9.051,
+     "end": 10.341
+    },
+    "s5": {
+     "start": 10.791,
+     "end": 13.74
+    }
+   }
+  },
+  "position": {
+   "duration": 44.817,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 7.029
+    },
+    "upright": {
+     "start": 7.479,
+     "end": 10.216
+    },
+    "feet": {
+     "start": 10.666,
+     "end": 14.005
+    },
+    "limbs": {
+     "start": 14.455,
+     "end": 16.129
+    },
+    "palms": {
+     "start": 16.579,
+     "end": 23.101
+    },
+    "views": {
+     "start": 24.351,
+     "end": 31.137
+    },
+    "rule": {
+     "start": 31.587,
+     "end": 40.42
+    },
+    "reference": {
+     "start": 40.87,
+     "end": 43.817
+    }
+   }
+  },
+  "coronal": {
+   "duration": 28.574,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 9.956
+    },
+    "plane": {
+     "start": 10.406,
+     "end": 18.789
+    },
+    "divide": {
+     "start": 19.839,
+     "end": 24.376
+    },
+    "posterior": {
+     "start": 24.826,
+     "end": 26.574
+    }
+   }
+  },
+  "sagittal": {
+   "duration": 29.132,
+   "beats": {
+    "plane": {
+     "start": 0.6,
+     "end": 7.892
+    },
+    "divide": {
+     "start": 8.842,
+     "end": 12.691
+    },
+    "many": {
+     "start": 13.941,
+     "end": 19.168
+    },
+    "mid": {
+     "start": 19.618,
+     "end": 24.104
+    },
+    "equal": {
+     "start": 24.554,
+     "end": 27.132
+    }
+   }
+  },
+  "transverse": {
+   "duration": 28.325,
+   "beats": {
+    "plane": {
+     "start": 0.6,
+     "end": 5.744
+    },
+    "horizontal": {
+     "start": 6.194,
+     "end": 10.161
+    },
+    "divide": {
+     "start": 11.111,
+     "end": 16.171
+    },
+    "recap": {
+     "start": 17.621,
+     "end": 18.753
+    },
+    "r1": {
+     "start": 19.203,
+     "end": 21.449
+    },
+    "r2": {
+     "start": 21.899,
+     "end": 23.483
+    },
+    "r3": {
+     "start": 23.933,
+     "end": 26.325
+    }
+   }
+  },
+  "directions": {
+   "duration": 53.389,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 11.317
+    },
+    "ant": {
+     "start": 11.767,
+     "end": 15.138
+    },
+    "post": {
+     "start": 15.588,
+     "end": 18.943
+    },
+    "medial": {
+     "start": 19.993,
+     "end": 24.334
+    },
+    "medEx": {
+     "start": 24.784,
+     "end": 28.917
+    },
+    "lr": {
+     "start": 29.367,
+     "end": 33.246
+    },
+    "sup": {
+     "start": 34.296,
+     "end": 37.651
+    },
+    "inf": {
+     "start": 38.101,
+     "end": 41.551
+    },
+    "supEx": {
+     "start": 42.001,
+     "end": 44.875
+    },
+    "compare": {
+     "start": 45.825,
+     "end": 52.389
+    }
+   }
+  },
+  "proximal": {
+   "duration": 38.097,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 2.345
+    },
+    "prox": {
+     "start": 2.795,
+     "end": 6.207
+    },
+    "dist": {
+     "start": 6.657,
+     "end": 8.186
+    },
+    "walk": {
+     "start": 8.636,
+     "end": 15.309
+    },
+    "example": {
+     "start": 15.759,
+     "end": 20.207
+    },
+    "limbs": {
+     "start": 21.257,
+     "end": 24.988
+    },
+    "cranial": {
+     "start": 25.938,
+     "end": 33.358
+    },
+    "caudal": {
+     "start": 33.808,
+     "end": 36.497
+    }
+   }
+  },
+  "depth": {
+   "duration": 31.446,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 1.754
+    },
+    "sup": {
+     "start": 2.204,
+     "end": 7.534
+    },
+    "peel": {
+     "start": 7.984,
+     "end": 10.361
+    },
+    "skin": {
+     "start": 10.811,
+     "end": 12.286
+    },
+    "fat": {
+     "start": 12.736,
+     "end": 14.718
+    },
+    "smas": {
+     "start": 15.168,
+     "end": 16.72
+    },
+    "muscle": {
+     "start": 17.17,
+     "end": 18.396
+    },
+    "nv": {
+     "start": 18.846,
+     "end": 20.252
+    },
+    "skull": {
+     "start": 20.702,
+     "end": 22.106
+    },
+    "ex1": {
+     "start": 23.156,
+     "end": 25.414
+    },
+    "ex2": {
+     "start": 25.864,
+     "end": 29.646
+    }
+   }
+  },
+  "flexion": {
+   "duration": 33.591,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 7.839
+    },
+    "watch": {
+     "start": 8.289,
+     "end": 9.324
+    },
+    "flex": {
+     "start": 10.174,
+     "end": 15.06
+    },
+    "flexName": {
+     "start": 15.91,
+     "end": 21.97
+    },
+    "ext": {
+     "start": 23.02,
+     "end": 26.547
+    },
+    "extName": {
+     "start": 27.397,
+     "end": 31.791
+    }
+   }
+  },
+  "abduction": {
+   "duration": 27.138,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 5.724
+    },
+    "abd": {
+     "start": 6.574,
+     "end": 9.685
+    },
+    "abdName": {
+     "start": 10.735,
+     "end": 13.95
+    },
+    "add": {
+     "start": 15.0,
+     "end": 16.983
+    },
+    "addName": {
+     "start": 18.033,
+     "end": 20.979
+    },
+    "trick": {
+     "start": 21.429,
+     "end": 25.538
+    }
+   }
+  },
+  "circumduction": {
+   "duration": 26.787,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 3.931
+    },
+    "flex": {
+     "start": 4.381,
+     "end": 5.514
+    },
+    "abd": {
+     "start": 5.964,
+     "end": 7.641
+    },
+    "ext": {
+     "start": 8.091,
+     "end": 9.403
+    },
+    "add": {
+     "start": 9.853,
+     "end": 11.755
+    },
+    "cone": {
+     "start": 12.705,
+     "end": 17.624
+    },
+    "name": {
+     "start": 18.674,
+     "end": 24.787
+    }
+   }
+  },
+  "rotation": {
+   "duration": 36.175,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 9.829
+    },
+    "axis": {
+     "start": 10.279,
+     "end": 12.772
+    },
+    "med": {
+     "start": 13.722,
+     "end": 20.263
+    },
+    "medName": {
+     "start": 21.113,
+     "end": 22.52
+    },
+    "lat": {
+     "start": 23.57,
+     "end": 27.968
+    },
+    "latName": {
+     "start": 28.818,
+     "end": 30.273
+    },
+    "spin": {
+     "start": 31.223,
+     "end": 34.575
+    }
+   }
+  },
+  "pronation": {
+   "duration": 38.464,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 7.563
+    },
+    "parallel": {
+     "start": 8.013,
+     "end": 13.52
+    },
+    "pro": {
+     "start": 14.57,
+     "end": 20.39
+    },
+    "proName": {
+     "start": 21.34,
+     "end": 24.386
+    },
+    "sup": {
+     "start": 25.436,
+     "end": 28.44
+    },
+    "supName": {
+     "start": 29.19,
+     "end": 32.173
+    },
+    "note": {
+     "start": 33.123,
+     "end": 36.864
+    }
+   }
+  },
+  "jaw": {
+   "duration": 34.41,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 4.501
+    },
+    "pro": {
+     "start": 4.951,
+     "end": 7.447
+    },
+    "ret": {
+     "start": 8.397,
+     "end": 10.82
+    },
+    "elev": {
+     "start": 11.87,
+     "end": 17.425
+    },
+    "elevJaw": {
+     "start": 18.275,
+     "end": 21.222
+    },
+    "dep": {
+     "start": 22.172,
+     "end": 28.821
+    },
+    "depJaw": {
+     "start": 29.671,
+     "end": 32.61
+    }
+   }
+  },
+  "foot": {
+   "duration": 25.648,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 2.365
+    },
+    "dorsi": {
+     "start": 2.815,
+     "end": 7.291
+    },
+    "plantar": {
+     "start": 8.341,
+     "end": 12.06
+    },
+    "front": {
+     "start": 13.31,
+     "end": 16.271
+    },
+    "inv": {
+     "start": 17.021,
+     "end": 19.623
+    },
+    "ev": {
+     "start": 20.873,
+     "end": 23.648
+    }
+   }
+  },
+  "case": {
+   "duration": 42.766,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 5.911
+    },
+    "exam": {
+     "start": 6.361,
+     "end": 16.01
+    },
+    "question": {
+     "start": 16.46,
+     "end": 24.614
+    },
+    "answer": {
+     "start": 28.564,
+     "end": 32.293
+    },
+    "why": {
+     "start": 32.743,
+     "end": 40.966
+    }
+   }
+  },
+  "quiz": {
+   "duration": 36.619,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 4.133
+    },
+    "q1": {
+     "start": 4.583,
+     "end": 8.497
+    },
+    "a1": {
+     "start": 11.147,
+     "end": 12.357
+    },
+    "q2": {
+     "start": 13.407,
+     "end": 16.632
+    },
+    "a2": {
+     "start": 19.282,
+     "end": 20.011
+    },
+    "q3": {
+     "start": 21.061,
+     "end": 23.893
+    },
+    "a3": {
+     "start": 26.543,
+     "end": 27.226
+    },
+    "q4": {
+     "start": 28.276,
+     "end": 31.357
+    },
+    "a4": {
+     "start": 34.007,
+     "end": 34.819
+    }
+   }
+  },
+  "summary": {
+   "duration": 38.132,
+   "beats": {
+    "intro": {
+     "start": 0.6,
+     "end": 1.938
+    },
+    "s1": {
+     "start": 2.388,
+     "end": 7.19
+    },
+    "s2": {
+     "start": 7.64,
+     "end": 11.918
+    },
+    "s3": {
+     "start": 12.368,
+     "end": 16.264
+    },
+    "s4": {
+     "start": 16.714,
+     "end": 19.99
+    },
+    "s5": {
+     "start": 20.44,
+     "end": 29.014
+    },
+    "refs": {
+     "start": 30.464,
+     "end": 34.632
+    }
+   }
+  }
+ }
+}

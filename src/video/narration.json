@@ -1,0 +1,279 @@
+{
+  "voice": "af_heart",
+  "speed": 0.96,
+  "beatGap": 0.45,
+  "sceneLead": 0.6,
+  "sceneTail": 1.0,
+  "scenes": [
+    {
+      "id": "hook",
+      "chapter": 0,
+      "beats": [
+        {"id": "patient", "text": "A patient arrives in the emergency department, lying on a stretcher, with a wound on the abdomen."},
+        {"id": "above", "text": "One doctor writes that the wound is above the navel. But above means what? Closer to the ceiling... or closer to the head?", "pauseAfter": 0.8},
+        {"id": "chaos", "text": "If every clinician described the body from their own point of view, nobody would agree on anything."},
+        {"id": "language", "text": "Anatomy solves this with a shared language: one fixed reference position, a set of imaginary planes, and precise terms for direction and movement."},
+        {"id": "fluent", "text": "By the end of this lecture, you'll speak that language fluently."}
+      ]
+    },
+    {
+      "id": "objectives",
+      "chapter": 0,
+      "beats": [
+        {"id": "title", "text": "Introduction to Anatomy.", "pauseAfter": 0.9},
+        {"id": "o1", "text": "Here's what you'll be able to do. Define the standard anatomical position."},
+        {"id": "o2", "text": "Describe the anatomical planes, and the body sections they create."},
+        {"id": "o3", "text": "Identify the major terms of position and direction."},
+        {"id": "o4", "text": "Describe the basic movements, using the correct terminology."},
+        {"id": "o5", "text": "And apply all of it to simple clinical and anatomical examples."}
+      ]
+    },
+    {
+      "id": "whatIsAnatomy",
+      "chapter": 0,
+      "beats": [
+        {"id": "word", "text": "First, the word itself. Anatomy comes from Greek roots meaning cutting up. In other words, dissection."},
+        {"id": "began", "text": "That's how anatomy began: by carefully opening the body, to see how it is built."},
+        {"id": "gross", "text": "Structures you can study with the naked eye, like bones, muscles, and organs such as the heart, belong to gross, or macroscopic, anatomy."},
+        {"id": "micro", "text": "Zoom in further, past the limit of the eye, and you need a microscope. That's microscopic anatomy."},
+        {"id": "histo", "text": "It includes histology, the study of tissues..."},
+        {"id": "cyto", "text": "and cytology, the study of cells."},
+        {"id": "stay", "text": "In this lecture, we stay at the gross level."}
+      ]
+    },
+    {
+      "id": "roadmap",
+      "chapter": 0,
+      "beats": [
+        {"id": "route", "text": "Here's our route."},
+        {"id": "s1", "text": "We'll begin with the anatomical position."},
+        {"id": "s2", "text": "Then cut the body with three planes."},
+        {"id": "s3", "text": "Learn the terms of direction."},
+        {"id": "s4", "text": "Put the body in motion."},
+        {"id": "s5", "text": "And finish with a clinical case, and a quick self-test."}
+      ]
+    },
+    {
+      "id": "position",
+      "chapter": 1,
+      "beats": [
+        {"id": "intro", "text": "Every anatomical description assumes the body is in one standard posture: the anatomical position."},
+        {"id": "upright", "text": "Let's build it. First, the body stands upright."},
+        {"id": "feet", "text": "The feet are together and flat, with the toes pointing forward."},
+        {"id": "limbs", "text": "The upper limbs hang at the sides."},
+        {"id": "palms", "text": "And here's the detail students most often forget: the palms face forward, with the fingers straight and together.", "pauseAfter": 0.8},
+        {"id": "views", "text": "This is the anatomical position. Seen from the front, the anterior view... and from the back, the posterior view."},
+        {"id": "rule", "text": "Here's the key rule. Whether the patient is lying down, sitting, or turned away from you, we describe structures as if the body were in this position."},
+        {"id": "reference", "text": "It is the standard reference for everything that follows."}
+      ]
+    },
+    {
+      "id": "coronal",
+      "chapter": 2,
+      "beats": [
+        {"id": "intro", "text": "Now imagine slicing through the body with flat, imaginary sheets. These are the anatomical planes, and three major planes are commonly used."},
+        {"id": "plane", "text": "The first is the coronal plane, also called the frontal plane. It is oriented vertically, passing from one side of the body to the other.", "pauseAfter": 0.6},
+        {"id": "divide", "text": "Watch what it does. It divides the body into an anterior part, in front..."},
+        {"id": "posterior", "text": "and a posterior part, behind.", "pauseAfter": 1.0}
+      ]
+    },
+    {
+      "id": "sagittal",
+      "chapter": 2,
+      "beats": [
+        {"id": "plane", "text": "The second is the sagittal plane. It is also oriented vertically, but turned ninety degrees, running from front to back.", "pauseAfter": 0.5},
+        {"id": "divide", "text": "A sagittal plane divides the body into right and left parts.", "pauseAfter": 0.8},
+        {"id": "many", "text": "There are many possible sagittal planes. Away from the center, the two parts are unequal."},
+        {"id": "mid", "text": "But one is special. The midsagittal plane passes through the center of the body..."},
+        {"id": "equal", "text": "dividing it into equal right and left halves.", "pauseAfter": 1.0}
+      ]
+    },
+    {
+      "id": "transverse",
+      "chapter": 2,
+      "beats": [
+        {"id": "plane", "text": "The third plane is the transverse plane, also called the horizontal, or axial, plane."},
+        {"id": "horizontal", "text": "Unlike the other two, it runs horizontally, parallel to the ground.", "pauseAfter": 0.5},
+        {"id": "divide", "text": "It divides the body into a superior part, above, and an inferior part, below.", "pauseAfter": 1.0},
+        {"id": "recap", "text": "So, three planes."},
+        {"id": "r1", "text": "Coronal: anterior and posterior."},
+        {"id": "r2", "text": "Sagittal: right and left."},
+        {"id": "r3", "text": "Transverse: superior and inferior.", "pauseAfter": 1.0}
+      ]
+    },
+    {
+      "id": "directions",
+      "chapter": 3,
+      "beats": [
+        {"id": "intro", "text": "With the body positioned and divided, we can describe where things are. Three major pairs of terms locate structures relative to the body as a whole, or to other structures."},
+        {"id": "ant", "text": "Anterior, or ventral, means toward the front of the body."},
+        {"id": "post", "text": "Posterior, or dorsal, means toward the back of the body.", "pauseAfter": 0.6},
+        {"id": "medial", "text": "Medial means closer to the body's midline. Lateral means farther from it."},
+        {"id": "medEx", "text": "The nose is medial to the eyes. The arms are lateral to the chest."},
+        {"id": "lr", "text": "And right and left always mean the patient's right and left, not yours.", "pauseAfter": 0.6},
+        {"id": "sup", "text": "Superior means above another structure, or toward the head."},
+        {"id": "inf", "text": "Inferior means below another structure, or toward the feet."},
+        {"id": "supEx", "text": "For example, the head is superior to the shoulders.", "pauseAfter": 0.5},
+        {"id": "compare", "text": "Notice that each term is a comparison. A structure is never simply medial. It is medial to something."}
+      ]
+    },
+    {
+      "id": "proximal",
+      "chapter": 3,
+      "beats": [
+        {"id": "intro", "text": "Some terms are built for the limbs."},
+        {"id": "prox", "text": "Proximal means nearer to the point of attachment to the trunk."},
+        {"id": "dist", "text": "Distal means farther from it."},
+        {"id": "walk", "text": "Follow the upper limb outward: shoulder, elbow, wrist, hand. Each point is distal to the one before it."},
+        {"id": "example", "text": "So the hand is distal to the elbow... and the elbow is proximal to the hand.", "pauseAfter": 0.6},
+        {"id": "limbs", "text": "Remember, proximal and distal are commonly used for the limbs.", "pauseAfter": 0.5},
+        {"id": "cranial", "text": "Along the long axis of the body, two more terms appear. Cranial means toward the head, the same idea as superior."},
+        {"id": "caudal", "text": "Caudal means toward the feet, matching inferior.", "pauseAfter": 0.6}
+      ]
+    },
+    {
+      "id": "depth",
+      "chapter": 3,
+      "beats": [
+        {"id": "intro", "text": "Finally, depth."},
+        {"id": "sup", "text": "Superficial means closer to the surface of the body. Deep means farther from the surface."},
+        {"id": "peel", "text": "Let's move through the face, layer by layer."},
+        {"id": "skin", "text": "On the surface, the skin."},
+        {"id": "fat", "text": "Beneath it, subcutaneous fat."},
+        {"id": "smas", "text": "Then the SMAS fascia layer..."},
+        {"id": "muscle", "text": "the facial muscles..."},
+        {"id": "nv", "text": "and the neurovascular layer."},
+        {"id": "skull", "text": "And deepest of all, the skull.", "pauseAfter": 0.6},
+        {"id": "ex1", "text": "So, the skin is superficial to the bones."},
+        {"id": "ex2", "text": "And inside the skull lies the brain. The brain is deep to the skull.", "pauseAfter": 0.8}
+      ]
+    },
+    {
+      "id": "flexion",
+      "chapter": 4,
+      "beats": [
+        {"id": "intro", "text": "Now let's put the body in motion. Movement terms describe what happens at joints, and most of them come in opposing pairs."},
+        {"id": "watch", "text": "Watch the elbow.", "pauseAfter": 0.4},
+        {"id": "flex", "text": "As the forearm bends up toward the arm, the angle between the two bones gets smaller.", "pauseAfter": 0.4},
+        {"id": "flexName", "text": "That's flexion: a movement that decreases the angle between two bones, and typically produces bending.", "pauseAfter": 0.6},
+        {"id": "ext", "text": "Now reverse it. The angle opens, and the joint straightens.", "pauseAfter": 0.4},
+        {"id": "extName", "text": "That's extension: a movement that increases the angle between two bones.", "pauseAfter": 0.8}
+      ]
+    },
+    {
+      "id": "abduction",
+      "chapter": 4,
+      "beats": [
+        {"id": "intro", "text": "For the next pair, the midline becomes our reference. Start in the anatomical position.", "pauseAfter": 0.4},
+        {"id": "abd", "text": "Raise the arm out to the side, away from the midline.", "pauseAfter": 0.6},
+        {"id": "abdName", "text": "This is abduction: moving a limb away from the midline.", "pauseAfter": 0.6},
+        {"id": "add", "text": "Bring it back down, toward the body.", "pauseAfter": 0.6},
+        {"id": "addName", "text": "This is adduction: moving a limb toward the midline."},
+        {"id": "trick", "text": "A simple memory trick: in adduction, you add the limb back to the body.", "pauseAfter": 0.6}
+      ]
+    },
+    {
+      "id": "circumduction",
+      "chapter": 4,
+      "beats": [
+        {"id": "intro", "text": "Combine these movements in sequence, and something new appears."},
+        {"id": "flex", "text": "Flexion, forward."},
+        {"id": "abd", "text": "Abduction, out to the side."},
+        {"id": "ext", "text": "Extension, backward."},
+        {"id": "add", "text": "Adduction, back toward the midline.", "pauseAfter": 0.5},
+        {"id": "cone", "text": "Performed continuously, the hand traces a circle, and the limb sweeps out a cone.", "pauseAfter": 0.6},
+        {"id": "name", "text": "This is circumduction: a sequential combination of flexion, abduction, extension, and adduction.", "pauseAfter": 1.0}
+      ]
+    },
+    {
+      "id": "rotation",
+      "chapter": 4,
+      "beats": [
+        {"id": "intro", "text": "Rotation is movement around a long axis. To see it clearly, bend the elbow to ninety degrees, so the forearm points forward, like a pointer."},
+        {"id": "axis", "text": "The axis runs straight down the length of the arm.", "pauseAfter": 0.5},
+        {"id": "med", "text": "Now turn the arm, so the forearm swings across the body. The anterior surface moves toward the midline.", "pauseAfter": 0.4},
+        {"id": "medName", "text": "That's medial rotation.", "pauseAfter": 0.6},
+        {"id": "lat", "text": "Turn it the other way, and the anterior surface moves away from the midline.", "pauseAfter": 0.4},
+        {"id": "latName", "text": "That's lateral rotation.", "pauseAfter": 0.5},
+        {"id": "spin", "text": "The axis itself doesn't move. The limb turns around it.", "pauseAfter": 0.6}
+      ]
+    },
+    {
+      "id": "pronation",
+      "chapter": 4,
+      "beats": [
+        {"id": "intro", "text": "The forearm has its own special rotation. Start in the anatomical position, with the palm facing forward."},
+        {"id": "parallel", "text": "Here, the two forearm bones, the radius and the ulna, lie parallel. This is supination.", "pauseAfter": 0.6},
+        {"id": "pro", "text": "Now turn the palm to face backward. The radius rotates over the ulna, and the two bones cross.", "pauseAfter": 0.5},
+        {"id": "proName", "text": "This is pronation: it turns the palm posteriorly.", "pauseAfter": 0.6},
+        {"id": "sup", "text": "Turn it back, and the palm faces anteriorly again.", "pauseAfter": 0.3},
+        {"id": "supName", "text": "That's supination: it turns the palm anteriorly.", "pauseAfter": 0.5},
+        {"id": "note", "text": "Notice: the anatomical position is a supinated position.", "pauseAfter": 0.6}
+      ]
+    },
+    {
+      "id": "jaw",
+      "chapter": 4,
+      "beats": [
+        {"id": "intro", "text": "Some movements are simple glides, forward and backward, up and down."},
+        {"id": "pro", "text": "Move the jaw forwards. That's protraction.", "pauseAfter": 0.5},
+        {"id": "ret", "text": "Move the jaw backwards. That's retraction.", "pauseAfter": 0.6},
+        {"id": "elev", "text": "Elevation moves a body part upward, superiorly. Raising the shoulders is elevation.", "pauseAfter": 0.4},
+        {"id": "elevJaw", "text": "So is raising the mandible, when you close the mouth.", "pauseAfter": 0.5},
+        {"id": "dep", "text": "Depression moves a body part downward, inferiorly. Lowering the shoulders after raising them is depression.", "pauseAfter": 0.4},
+        {"id": "depJaw", "text": "So is lowering the mandible, when you open the mouth.", "pauseAfter": 0.8}
+      ]
+    },
+    {
+      "id": "foot",
+      "chapter": 4,
+      "beats": [
+        {"id": "intro", "text": "The foot has movements of its own."},
+        {"id": "dorsi", "text": "Move the dorsum of the foot, the top surface, upwards. That's dorsiflexion.", "pauseAfter": 0.6},
+        {"id": "plantar", "text": "Move the foot downward, pointing the toes. That's plantar flexion.", "pauseAfter": 0.8},
+        {"id": "front", "text": "Now look at the feet from the front, and watch the soles.", "pauseAfter": 0.3},
+        {"id": "inv", "text": "Turning the sole toward the midline is inversion.", "pauseAfter": 0.8},
+        {"id": "ev", "text": "Turning the sole away from the midline is eversion.", "pauseAfter": 1.0}
+      ]
+    },
+    {
+      "id": "case",
+      "chapter": 5,
+      "beats": [
+        {"id": "intro", "text": "Let's apply this. A twenty-two-year-old football player twists his right ankle during a match."},
+        {"id": "exam", "text": "On examination, the physician asks him to turn the sole of his foot outward, away from the midline, to assess the integrity of the lateral ankle structures."},
+        {"id": "question", "text": "Which anatomical term describes this movement? Inversion, eversion, dorsiflexion, or plantar flexion? Pause, and decide.", "pauseAfter": 3.5},
+        {"id": "answer", "text": "The answer is eversion. The sole turns away from the midline."},
+        {"id": "why", "text": "Inversion would turn the sole toward the midline. And dorsiflexion and plantar flexion move the foot up and down, not side to side.", "pauseAfter": 0.8}
+      ]
+    },
+    {
+      "id": "quiz",
+      "chapter": 5,
+      "beats": [
+        {"id": "intro", "text": "Now, a quick self-test. Answer each one before the reveal."},
+        {"id": "q1", "text": "Which plane divides the body into superior and inferior parts?", "pauseAfter": 2.2},
+        {"id": "a1", "text": "The transverse plane.", "pauseAfter": 0.6},
+        {"id": "q2", "text": "This arm is moving toward the midline. Name the movement.", "pauseAfter": 2.2},
+        {"id": "a2", "text": "Adduction.", "pauseAfter": 0.6},
+        {"id": "q3", "text": "Is the hand proximal, or distal, to the elbow?", "pauseAfter": 2.2},
+        {"id": "a3", "text": "Distal.", "pauseAfter": 0.6},
+        {"id": "q4", "text": "The palm turns to face backward. What is this movement?", "pauseAfter": 2.2},
+        {"id": "a4", "text": "Pronation.", "pauseAfter": 0.8}
+      ]
+    },
+    {
+      "id": "summary",
+      "chapter": 6,
+      "beats": [
+        {"id": "intro", "text": "Let's bring it all together."},
+        {"id": "s1", "text": "The anatomical position provides the standard reference for describing structures."},
+        {"id": "s2", "text": "Coronal, sagittal, and transverse planes describe body sections."},
+        {"id": "s3", "text": "Directional terms describe the relative location of structures."},
+        {"id": "s4", "text": "Movement terms describe common joint and body movements."},
+        {"id": "s5", "text": "Together, these terms provide a common language for anatomical and clinical communication. Learn them well. You'll use them every single day.", "pauseAfter": 1.0},
+        {"id": "refs", "text": "For further reading, see Gray's Anatomy for Students, and Last's Anatomy.", "pauseAfter": 2.5}
+      ]
+    }
+  ]
+}
