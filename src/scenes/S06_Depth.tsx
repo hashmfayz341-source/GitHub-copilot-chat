@@ -95,7 +95,7 @@ export const Depth: React.FC = () => {
         <SvgText x={1360} y={490} text="is DEEP to" start={b.at('ex2', 0.6)} size={44} fill={color.text} anchor="start" />
         <SvgText x={1360} y={560} text="the skull" start={b.at('ex2', 0.7)} size={56} fill={color.layerBone} anchor="start" />
       </Stage>
-      <TermReveal term="Superficial ↔ Deep" start={b('sup', 0.1)} out={b('peel', -0.2)} x={960} y={110} align="center" size={64} width={1200} />
+      <TermReveal term="Superficial ↔ Deep" start={b('sup', 0.1)} out={b('peel', -0.2)} x={1360} y={830} align="center" size={60} width={900} />
     </SceneShell>
   );
 };

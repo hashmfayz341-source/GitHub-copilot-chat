@@ -6,3 +6,5 @@ output/frames/
 *.log
 .DS_Store
 .tts-cache/
+output/splice/
+output/qa/
