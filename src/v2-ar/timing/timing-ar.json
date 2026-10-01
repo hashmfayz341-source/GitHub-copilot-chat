@@ -1,0 +1,2088 @@
+{
+ "fps": 30,
+ "voiceConfig": {
+  "version": "v2-designed-2026-10-01",
+  "model_id": "eleven_v3",
+  "generations_count": 1,
+  "exposed_parameters": "voice_id, model_id, generations_count, prompt only -- this MCP connector exposes no stability/style/speed/similarity fields",
+  "characters": {
+   "Rashid": {
+    "voice_id": "9Pf8YHvYti7L3mjDAa4d",
+    "name": "Rashid — Anatomy V2 (Saudi host)",
+    "origin": "designed via eleven_ttv_v3, workspace-owned",
+    "tag": "[calm]",
+    "measured_f0_hz": 133
+   },
+   "Salem": {
+    "voice_id": "TiWmvwCGis5iNuIkgk46",
+    "name": "Salem — Anatomy V2 (Saudi friend)",
+    "origin": "designed via eleven_ttv_v3, workspace-owned",
+    "tag": "[casually]",
+    "measured_f0_hz": 181
+   },
+   "Noura": {
+    "voice_id": "D0sUluDnDiue2gPok6XF",
+    "name": "Noura — Anatomy V2 (Saudi, dry calm)",
+    "origin": "designed via eleven_ttv_v3, workspace-owned",
+    "tag": "[dryly]",
+    "measured_f0_hz": 250
+   }
+  },
+  "retired_library_voices": [
+   "etJo0VNXVmjmd5XDR7lJ",
+   "OoE8swS3hImZANNOodf6",
+   "dYnGGqiuxHfLuVGVGIbi"
+  ]
+ },
+ "generatedFrom": "anatomy_voice/manifest.json (real audio durations via ffprobe)",
+ "scenes": {
+  "1": {
+   "scene": 1,
+   "lines": [
+    {
+     "lineId": "L001",
+     "idx": 1,
+     "speaker": "Salem",
+     "text": "يا شباب، اليد اليمين… ارفعها. اليمين! لا، الثانية!",
+     "pauseAfter": 0,
+     "gapAfter": 0.15,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/salem_001_take1.mp3",
+     "duration": 3.082,
+     "start": 0,
+     "end": 3.082,
+     "startFrame": 0,
+     "endFrame": 92
+    },
+    {
+     "lineId": "L002",
+     "idx": 2,
+     "speaker": "Rashid",
+     "text": "الثانية وش؟ عنده يدين، مو خيارات مفتوحة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.2,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/rashid_002_take1.mp3",
+     "duration": 2.926,
+     "start": 3.232,
+     "end": 6.158,
+     "startFrame": 97,
+     "endFrame": 185
+    },
+    {
+     "lineId": "L003",
+     "idx": 3,
+     "speaker": "Salem",
+     "text": "هذي يمين!",
+     "pauseAfter": 0,
+     "gapAfter": 0.25,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/salem_003_take1.mp3",
+     "duration": 0.993,
+     "start": 6.358,
+     "end": 7.351,
+     "startFrame": 191,
+     "endFrame": 221
+    },
+    {
+     "lineId": "L004",
+     "idx": 4,
+     "speaker": "Rashid",
+     "text": "هذي يمينك أنت. يمينه هو بالجهة الثانية.",
+     "pauseAfter": 0,
+     "gapAfter": 0.3,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/rashid_004_take1.mp3",
+     "duration": 2.926,
+     "start": 7.601,
+     "end": 10.527,
+     "startFrame": 228,
+     "endFrame": 316
+    },
+    {
+     "lineId": "L005",
+     "idx": 5,
+     "speaker": "Salem",
+     "text": "طيب لفّوه عندي ونفتك.",
+     "pauseAfter": 0,
+     "gapAfter": 0.55,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/salem_005_take1.mp3",
+     "duration": 1.646,
+     "start": 10.827,
+     "end": 12.473,
+     "startFrame": 325,
+     "endFrame": 374
+    },
+    {
+     "lineId": "L006",
+     "idx": 6,
+     "speaker": "Noura",
+     "text": "تبي تلف الجسم عشان يوافق إصبعك؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.6,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/noura_006_take2.mp3",
+     "duration": 2.769,
+     "start": 13.023,
+     "end": 15.792,
+     "startFrame": 391,
+     "endFrame": 474
+    },
+    {
+     "lineId": "L007",
+     "idx": 7,
+     "speaker": "Rashid",
+     "text": "عشان كذا نحتاج لغة Anatomy. نتفق على مرجع للجسم، ونحدد المكان والحركة. ما يصير كل واحد يقول «هنا» ويقصد جهة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/rashid_007_take1.mp3",
+     "duration": 8.202,
+     "start": 16.392,
+     "end": 24.594,
+     "startFrame": 492,
+     "endFrame": 738
+    },
+    {
+     "lineId": "L008",
+     "idx": 8,
+     "speaker": "Salem",
+     "text": "أجل القروب من أول رسالة دخل في سوء تفاهم.",
+     "pauseAfter": 0,
+     "gapAfter": 0,
+     "gapSource": "directed-conversational",
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene01/salem_008_take1.mp3",
+     "duration": 2.116,
+     "start": 24.944,
+     "end": 27.06,
+     "startFrame": 748,
+     "endFrame": 812
+    }
+   ],
+   "duration": 27.06,
+   "status": "ready",
+   "durationInFrames": 812,
+   "linesFinal": 8,
+   "linesTotal": 8
+  },
+  "2": {
+   "scene": 2,
+   "lines": [
+    {
+     "lineId": "L009",
+     "idx": 9,
+     "speaker": "Rashid",
+     "text": "شوف الجسم، وشوف تراكيبه وعلاقاتها ببعض. دراسة هالتركيب هي Anatomy. أصل الكلمة مرتبط بالقطع، أو dissection؛ بس دراسة Anatomy مو لازم تكون بقطع فعلي.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "RENDERED"
+    },
+    {
+     "lineId": "L010",
+     "idx": 10,
+     "speaker": "Rashid",
+     "text": "مثل الـbrain هنا. تراكيب نقدر ندرسها بدون microscope: Gross، أو Macroscopic anatomy.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "RENDERED"
+    },
+    {
+     "lineId": "L011",
+     "idx": 11,
+     "speaker": "Salem",
+     "text": "طيب قرّب الصورة. وش داخلها؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L012",
+     "idx": 12,
+     "speaker": "Rashid",
+     "text": "الحين نسيج. ندرس ترتيب الأنسجة بالـmicroscope: Histology. وداخل النسيج نركز على الخلايا: Cytology. الاثنين ضمن Microscopic anatomy.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L013",
+     "idx": 13,
+     "speaker": "Salem",
+     "text": "لا تضيفهم كلهم بالقروب، تكفى.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L014",
+     "idx": 14,
+     "speaker": "Rashid",
+     "text": "نفس الجسم، بس مستوى النظر تغيّر. الحين تشوف نسيج وترتيب خلاياه؛ أي فرع؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L015",
+     "idx": 15,
+     "speaker": "Salem",
+     "text": "Histology. الخلية لحالها Cytology.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 7
+  },
+  "3": {
+   "scene": 3,
+   "lines": [
+    {
+     "lineId": "L016",
+     "idx": 16,
+     "speaker": "Rashid",
+     "text": "خلّ الجسم يوقف مستقيم، وجهه ونظره قدام. القدمين مع بعض، وأصابع القدم لقدام. الذراعين على الجنب.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L017",
+     "idx": 17,
+     "speaker": "Salem",
+     "text": "الكفوف للفخذين؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L018",
+     "idx": 18,
+     "speaker": "Rashid",
+     "text": "شوف اللقطة… فيها شيء ما ضبط. وين نخلي الكفوف؟",
+     "pauseAfter": 1,
+     "gapAfter": 1,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L019",
+     "idx": 19,
+     "speaker": "Salem",
+     "text": "لقدام. كذا تبان راحة اليد.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L020",
+     "idx": 20,
+     "speaker": "Rashid",
+     "text": "إيه؛ والأصابع مستقيمة ومع بعض. هذي Anatomical position: الوقفة المرجعية اللي نوصف الجسم على أساسها.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L021",
+     "idx": 21,
+     "speaker": "Noura",
+     "text": "طيب لو انسدح المريض؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L022",
+     "idx": 22,
+     "speaker": "Salem",
+     "text": "لا تقول نعيد ترتيب القروب.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L023",
+     "idx": 23,
+     "speaker": "Rashid",
+     "text": "ما نعيده. المرجع نفسه حتى لو تغيرت وضعيته. واليمين يمين صاحب الجسم، مو يمين اللي يطالعه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L024",
+     "idx": 24,
+     "speaker": "Rashid",
+     "text": "الكفوف في الوقفة المرجعية: قدام ولا ورا؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L025",
+     "idx": 25,
+     "speaker": "Salem",
+     "text": "قدام.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 10
+  },
+  "4": {
+   "scene": 4,
+   "lines": [
+    {
+     "lineId": "L026",
+     "idx": 26,
+     "speaker": "Salem",
+     "text": "طيب خلّنا نفصلهم. كل جهة بحالها.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L027",
+     "idx": 27,
+     "speaker": "Rashid",
+     "text": "تخيل سطح شفاف يمر في الجسم. شوف وش فصل: جزء يمين، وجزء يسار. هذا Sagittal plane.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L028",
+     "idx": 28,
+     "speaker": "Salem",
+     "text": "والحين بعدته عن النص. خلاص فقد الاسم؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L029",
+     "idx": 29,
+     "speaker": "Rashid",
+     "text": "لا، يظل Sagittal. يقسم يمين ويسار، مو شرط بالتساوي. وإذا مر بالمنتصف بالضبط، قسم الجسم لنصفين متساويين: Midsagittal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L030",
+     "idx": 30,
+     "speaker": "Salem",
+     "text": "أجل اللي بالنص له اسم خاص. طبيعي، ماسك القروب.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L031",
+     "idx": 31,
+     "speaker": "Rashid",
+     "text": "والنصفين هنا تقسيم مكاني، مو الأعضاء نسختين متطابقتين. الـplane سطح نتخيله؛ والـsection المقطع الناتج، مثل اللي يورينا إياه التصوير بدون قطع فعلي.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L032",
+     "idx": 32,
+     "speaker": "Rashid",
+     "text": "قسم يمين ويسار، لكنه مو بالنص. أي اسم؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L033",
+     "idx": 33,
+     "speaker": "Salem",
+     "text": "Sagittal. أما Midsagittal، بالنص بالضبط.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 8
+  },
+  "5": {
+   "scene": 5,
+   "lines": [
+    {
+     "lineId": "L034",
+     "idx": 34,
+     "speaker": "Salem",
+     "text": "جدار ثاني؟ ترى الأول للحين ما خلصنا منه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L035",
+     "idx": 35,
+     "speaker": "Rashid",
+     "text": "راقب التقسيم، مو عدد الجدران. هذا فصل الجزء اللي قدام عن اللي ورا. هذا Coronal plane، أو Frontal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L036",
+     "idx": 36,
+     "speaker": "Salem",
+     "text": "الأول يمين ويسار، هذا قدام وورا. الاثنين عموديين، بس ما يسوون نفس الشيء.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L037",
+     "idx": 37,
+     "speaker": "Rashid",
+     "text": "وهذا أفقي. جزء فوق وجزء تحت: Transverse، أو Horizontal، أو Axial. ثلاث تسميات لنفس المستوى هنا.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L038",
+     "idx": 38,
+     "speaker": "Salem",
+     "text": "زين. لا أدوّر ثلاث جدران عشان ثلاث كلمات.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L039",
+     "idx": 39,
+     "speaker": "Rashid",
+     "text": "شوف المستوى بدون اسم. فصل قدام عن ورا. وش هو؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L040",
+     "idx": 40,
+     "speaker": "Salem",
+     "text": "Coronal، أو Frontal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L041",
+     "idx": 41,
+     "speaker": "Rashid",
+     "text": "الحين عرفنا كيف نقسمه. نجي للعنوان: وين الشيء بالنسبة لشيء ثاني؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 8
+  },
+  "6": {
+   "scene": 6,
+   "lines": [
+    {
+     "lineId": "L042",
+     "idx": 42,
+     "speaker": "Salem",
+     "text": "يا شباب، اللي فوق ينزل شوي.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L043",
+     "idx": 43,
+     "speaker": "Rashid",
+     "text": "مين اللي فوق؟ فوق وش؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L044",
+     "idx": 44,
+     "speaker": "Salem",
+     "text": "أوه، حتى المكان له شروط.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L045",
+     "idx": 45,
+     "speaker": "Rashid",
+     "text": "شوف جهة الأمام: Anterior، أو Ventral. وجهة الخلف: Posterior، أو Dorsal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L046",
+     "idx": 46,
+     "speaker": "Rashid",
+     "text": "والـsternum قدام الـheart: Anterior to the heart. بالعكس، الـheart Posterior to the sternum.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L047",
+     "idx": 47,
+     "speaker": "Rashid",
+     "text": "شوف الرأس بالنسبة للكتفين: Superior. والكتفين بالنسبة للرأس: Inferior. مو فوق الشاشة وتحتها؛ مقارنة بالجسم.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L048",
+     "idx": 48,
+     "speaker": "Rashid",
+     "text": "وتلقى Cranial باتجاه الرأس؛ وCaudal باتجاه الطرف السفلي، حسب محاضرتك. هنا نوصف اتجاهات الجسم العام.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L049",
+     "idx": 49,
+     "speaker": "Rashid",
+     "text": "الكتفين بالنسبة للرأس؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L050",
+     "idx": 50,
+     "speaker": "Salem",
+     "text": "Inferior. وأقول بالنسبة للرأس، عشان ما نرجع نتهاوش.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 9
+  },
+  "7": {
+   "scene": 7,
+   "lines": [
+    {
+     "lineId": "L051",
+     "idx": 51,
+     "speaker": "Salem",
+     "text": "الخط ذا مثبت من أول القروب. ما نقدر نسحبه شوي؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L052",
+     "idx": 52,
+     "speaker": "Rashid",
+     "text": "لا تسحب المرجع عشان تضبط إجابتك. شوف الأنف والعين: الأنف أقرب للـmidline من العين، يعني Medial to the eye.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L053",
+     "idx": 53,
+     "speaker": "Rashid",
+     "text": "والعين أبعد عن الخط من الأنف: Lateral to the nose.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L054",
+     "idx": 54,
+     "speaker": "Salem",
+     "text": "يعني Medial لازم يكون فوق الخط؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L055",
+     "idx": 55,
+     "speaker": "Rashid",
+     "text": "مو شرط. يكفي يكون أقرب له من الشيء اللي تقارنه فيه. وLateral مو معناها يمين؛ عندك Lateral بالجهتين.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L056",
+     "idx": 56,
+     "speaker": "Rashid",
+     "text": "العين بالنسبة للأنف؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L057",
+     "idx": 57,
+     "speaker": "Salem",
+     "text": "Lateral. الخط ثابت، وأنا أحدد مين أقرب له.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L058",
+     "idx": 58,
+     "speaker": "Rashid",
+     "text": "قرب من الـmidline: Medial. بعد عنه: Lateral.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L059",
+     "idx": 59,
+     "speaker": "Rashid",
+     "text": "شوف الطرف كأنه طريق يبدأ من اتصاله بالجذع: كتف، elbow،hand. الأقرب لنقطة الاتصال Proximal؛ الأبعد Distal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L060",
+     "idx": 60,
+     "speaker": "Salem",
+     "text": "يعني الـhand Distal للـelbow.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 10
+  },
+  "8": {
+   "scene": 8,
+   "lines": [
+    {
+     "lineId": "L061",
+     "idx": 61,
+     "speaker": "Rashid",
+     "text": "والـelbow Proximal للـhand. هالمصطلحين نستخدمهم كثير للأطراف.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L062",
+     "idx": 62,
+     "speaker": "Noura",
+     "text": "ثنى ذراعه وحط يده على صدره. الحين اليد صارت Proximal للـelbow؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L063",
+     "idx": 63,
+     "speaker": "Salem",
+     "text": "لا. رجعت قريب من البيت، بس ترتيبها بالطرف نفسه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L064",
+     "idx": 64,
+     "speaker": "Rashid",
+     "text": "إيه. ما نقيس أقصر مسافة للصورة. نتبع ترتيب الطرف من نقطة اتصاله. هذا غير Medial وLateral؛ ذيك مرجعها الـmidline.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L065",
+     "idx": 65,
+     "speaker": "Rashid",
+     "text": "الـelbow بالنسبة للـhand؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L066",
+     "idx": 66,
+     "speaker": "Salem",
+     "text": "Proximal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 6
+  },
+  "9": {
+   "scene": 9,
+   "lines": [
+    {
+     "lineId": "L067",
+     "idx": 67,
+     "speaker": "Salem",
+     "text": "وين الـbrain؟ أبي أشوفه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L068",
+     "idx": 68,
+     "speaker": "Rashid",
+     "text": "من برّا، تشوف السطح أول. إذا وضحنا الطبقات، يبان اللي أعمق. شوف الـskin بالنسبة للعظام: أقرب للسطح، يعني Superficial.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L069",
+     "idx": 69,
+     "speaker": "Rashid",
+     "text": "والـbrain بالنسبة للـskull: أبعد عن السطح، يعني Deep.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L070",
+     "idx": 70,
+     "speaker": "Salem",
+     "text": "إيه، مأخذ آخر غرفة. كل ما جيته طلع شيء قبله.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L071",
+     "idx": 71,
+     "speaker": "Rashid",
+     "text": "هذا تذكير للعمق، مو مخطط غرف. Superficial وDeep وصف للمكان، مو لحجم الشيء أو خطورته.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L072",
+     "idx": 72,
+     "speaker": "Rashid",
+     "text": "الـbrain بالنسبة للـskull؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L073",
+     "idx": 73,
+     "speaker": "Salem",
+     "text": "Deep.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L074",
+     "idx": 74,
+     "speaker": "Rashid",
+     "text": "عرفنا وين قاعدين. الحين خلّنا نشوف وش يسوون إذا تحركوا.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 8
+  },
+  "10": {
+   "scene": 10,
+   "lines": [
+    {
+     "lineId": "L075",
+     "idx": 75,
+     "speaker": "Salem",
+     "text": "يا رجال، المرفق قفّل على الذراع.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L076",
+     "idx": 76,
+     "speaker": "Rashid",
+     "text": "شوف الزاوية بين العظام؛ قلت. هذي Flexion. الحين يرجع يستقيم؛ الزاوية تزيد: Extension.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L077",
+     "idx": 77,
+     "speaker": "Salem",
+     "text": "أجل قدام Flexion، ورا Extension. سهلة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L078",
+     "idx": 78,
+     "speaker": "Noura",
+     "text": "شوف الركبة وهي تنثني. القدم راحت للخلف، بس هذا Knee flexion.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L079",
+     "idx": 79,
+     "speaker": "Salem",
+     "text": "أجل الاختصار حقي يبيله Extension.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L080",
+     "idx": 80,
+     "speaker": "Rashid",
+     "text": "خله ينفتح شوي: في مثالنا، Flexion تقلل الزاوية، وExtension تزيدها. وحدد المفصل، لا تحفظ جهة واحدة لكل الجسم.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L081",
+     "idx": 81,
+     "speaker": "Rashid",
+     "text": "الـelbow مثني، ثم استقام. أي حركة؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L082",
+     "idx": 82,
+     "speaker": "Salem",
+     "text": "Extension.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 8
+  },
+  "11": {
+   "scene": 11,
+   "lines": [
+    {
+     "lineId": "L083",
+     "idx": 83,
+     "speaker": "Salem",
+     "text": "أوف… الذراع ابتعد عن الخط. واضح بينهم شيء.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L084",
+     "idx": 84,
+     "speaker": "Rashid",
+     "text": "بينهم مسافة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L085",
+     "idx": 85,
+     "speaker": "Salem",
+     "text": "بعيد عنك… وأبي أرجع مكاني.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L086",
+     "idx": 86,
+     "speaker": "Rashid",
+     "text": "وقف الطرب شوي. الخط ما يدري عنك. شوف الحركة: الذراع ابتعد جانبيًا عن الـmidline. هذي Abduction.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L087",
+     "idx": 87,
+     "speaker": "Salem",
+     "text": "والحين رجع له؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L088",
+     "idx": 88,
+     "speaker": "Rashid",
+     "text": "رجع باتجاه الـmidline: Adduction. البعد Abduction، والرجوع نحو الخط Adduction. هذا تعريف الحركة؛ الغنا بس يذكّرك بالمشهد.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L089",
+     "idx": 89,
+     "speaker": "Salem",
+     "text": "طيب هذا رفع يده لقدام، برضه Abduction؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L090",
+     "idx": 90,
+     "speaker": "Rashid",
+     "text": "شوفها من الجنب؛ ما طلعت جانبيًا. هذي Shoulder flexion. لازم تراقب الاتجاه، مو مجرد اليد ارتفعت.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L091",
+     "idx": 91,
+     "speaker": "Rashid",
+     "text": "الذراع اللي على الجنب يرجع للجسم. وش الحركة؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L092",
+     "idx": 92,
+     "speaker": "Salem",
+     "text": "Adduction. رجع، لا تعيد الأغنية.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 10
+  },
+  "12": {
+   "scene": 12,
+   "lines": [
+    {
+     "lineId": "L093",
+     "idx": 93,
+     "speaker": "Salem",
+     "text": "رجع… والحين يسوي لفة. شكله يبي يدخل من كل جهة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L094",
+     "idx": 94,
+     "speaker": "Rashid",
+     "text": "شوف طرف الذراع يرسم دائرة، والحركة عند الـshoulder. هذي Circumduction.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L095",
+     "idx": 95,
+     "speaker": "Rashid",
+     "text": "هي جمع متتابع: Flexion،Abduction،Extension،Adduction. كل حركة جزء من الدائرة؛ مو أربع وقفات منفصلة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L096",
+     "idx": 96,
+     "speaker": "Salem",
+     "text": "أجل مو لازم أغنية ثانية لكل حركة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L097",
+     "idx": 97,
+     "speaker": "Rashid",
+     "text": "ولا الأولى تكمل. وتقدر تعكس اتجاه الدائرة؛ ترتيب محاضرتك يوضح الحركات، مو يلزمك بلفة باتجاه واحد.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L098",
+     "idx": 98,
+     "speaker": "Rashid",
+     "text": "طرف الذراع يرسم دائرة حول الـshoulder. أي حركة؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L099",
+     "idx": 99,
+     "speaker": "Salem",
+     "text": "Circumduction. مو العظم يلف حول نفسه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 7
+  },
+  "13": {
+   "scene": 13,
+   "lines": [
+    {
+     "lineId": "L100",
+     "idx": 100,
+     "speaker": "Salem",
+     "text": "الحين وش؟ بيسوي دائرة أصغر؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L101",
+     "idx": 101,
+     "speaker": "Rashid",
+     "text": "راقب العظم. الـelbow مثني وقريب من الجذع، والذراع يلف عند الـshoulder حول محوره الطولي.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L102",
+     "idx": 102,
+     "speaker": "Rashid",
+     "text": "سطحه الأمامي يتجه نحو الـmidline: Medial rotation. وإذا لف بعيد عنه: Lateral rotation.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L103",
+     "idx": 103,
+     "speaker": "Noura",
+     "text": "راقب محور الذراع؛ دخول اليد للداخل لحاله ما يكفي عشان تسمي الحركة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L104",
+     "idx": 104,
+     "speaker": "Salem",
+     "text": "إيه. قبل شوي الطرف يرسم دائرة؛ هنا العظم يلف حول نفسه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L105",
+     "idx": 105,
+     "speaker": "Rashid",
+     "text": "سطحه الأمامي لف بعيد عن الـmidline. أي Rotation؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L106",
+     "idx": 106,
+     "speaker": "Salem",
+     "text": "Lateral rotation.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 7
+  },
+  "14": {
+   "scene": 14,
+   "lines": [
+    {
+     "lineId": "L107",
+     "idx": 107,
+     "speaker": "Salem",
+     "text": "الكف قلب للخلف. نفس لفّة الذراع؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L108",
+     "idx": 108,
+     "speaker": "Rashid",
+     "text": "لا؛ هنا الذراع العلوي ثابت، والحركة في الـforearm. من Anatomical position، الكف يصير للخلف: Pronation. يرجع للأمام: Supination.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L109",
+     "idx": 109,
+     "speaker": "Salem",
+     "text": "طيب أقلب الجسم كله، والكف يصير قدام.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L110",
+     "idx": 110,
+     "speaker": "Rashid",
+     "text": "لا تلفّهم كلهم عشان كف. نبي حركة الـforearm نفسه؛ مو تغيير مكان الشخص.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L111",
+     "idx": 111,
+     "speaker": "Rashid",
+     "text": "في Pronation، الـradius يعبر فوق الـulna. وفي Supination، يرجعون متوازيين. مو لفّة من الـwrist.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L112",
+     "idx": 112,
+     "speaker": "Salem",
+     "text": "وإذا ثنيت الـelbow؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L113",
+     "idx": 113,
+     "speaker": "Rashid",
+     "text": "يصير كف لفوق Supination، ولتحت Pronation. نفس الحركة، وضع الـelbow تغيّر. في الوقفة الأصلية: قدام وورا.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L114",
+     "idx": 114,
+     "speaker": "Rashid",
+     "text": "الـelbow مثني؛ الكف لفوق ثم صار لتحت. وش الحركة؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L115",
+     "idx": 115,
+     "speaker": "Salem",
+     "text": "Pronation، في الـforearm.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 9
+  },
+  "15": {
+   "scene": 15,
+   "lines": [
+    {
+     "lineId": "L116",
+     "idx": 116,
+     "speaker": "Salem",
+     "text": "يا الفك… لا تتقدم، خلّ راعيك يكمل.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L117",
+     "idx": 117,
+     "speaker": "Rashid",
+     "text": "شوف الـmandible. تحرك للأمام والرأس ثابت: Protraction. يرجع للخلف: Retraction.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L118",
+     "idx": 118,
+     "speaker": "Salem",
+     "text": "وأنا أحسبه بيقاطع. الفم أصلاً مقفّل.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L119",
+     "idx": 119,
+     "speaker": "Rashid",
+     "text": "وهنا الفرق. تقدم ورجوع، مو فتح وإغلاق. اللي تحرك الـmandible، مو الرأس.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L120",
+     "idx": 120,
+     "speaker": "Rashid",
+     "text": "الفك يتقدم والفم ما فتح. أي حركة؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L121",
+     "idx": 121,
+     "speaker": "Salem",
+     "text": "Protraction. خله يتقدم، بس لا يفتح فمه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L122",
+     "idx": 122,
+     "speaker": "Rashid",
+     "text": "شوف مقدمة القدم ترتفع، والـdorsum يقرب من مقدمة الساق. هذي Dorsiflexion.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 7
+  },
+  "16": {
+   "scene": 16,
+   "lines": [
+    {
+     "lineId": "L123",
+     "idx": 123,
+     "speaker": "Salem",
+     "text": "والحين تشير بعيد عنها، مثل الوقفة على أطراف الأصابع.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L124",
+     "idx": 124,
+     "speaker": "Rashid",
+     "text": "هذي Plantar flexion. القدم تتحرك عند الـankle؛ مو الأصابع لحالها تنثني.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L125",
+     "idx": 125,
+     "speaker": "Salem",
+     "text": "طيب لفّيت الصورة. فوق صارت جنب.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L126",
+     "idx": 126,
+     "speaker": "Rashid",
+     "text": "خلّ الشاشة تلف. الـdorsum يقرب للساق في Dorsiflexion؛ وبالعكس، القدم تشير بعيد عنها في Plantar flexion. العلاقة ما تتغير مع الصورة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L127",
+     "idx": 127,
+     "speaker": "Rashid",
+     "text": "القدم تشير مثل الوقفة على أطراف الأصابع؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L128",
+     "idx": 128,
+     "speaker": "Salem",
+     "text": "Plantar flexion.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 6
+  },
+  "17": {
+   "scene": 17,
+   "lines": [
+    {
+     "lineId": "L129",
+     "idx": 129,
+     "speaker": "Salem",
+     "text": "وقف. باطن القدم يواجه خط النص.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L130",
+     "idx": 130,
+     "speaker": "Rashid",
+     "text": "إيه. الـsole يميل نحو الـmidline: Inversion. والحين يميل بعيد عنه: Eversion.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L131",
+     "idx": 131,
+     "speaker": "Salem",
+     "text": "أجل أراقب الباطن، مو أشوف الرجل لفت وأرمي اسم.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L132",
+     "idx": 132,
+     "speaker": "Rashid",
+     "text": "خصوصاً لو الرجل كلها دارت. Eversion هنا ميل الـsole، مو دوران الطرف كله للخارج.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L133",
+     "idx": 133,
+     "speaker": "Noura",
+     "text": "وهالميل تشارك فيه مفاصل القدم، خصوصاً الـsubtalar؛ مو نفس مفصل الـankle اللي وصفنا فيه Dorsiflexion وPlantar flexion.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L134",
+     "idx": 134,
+     "speaker": "Rashid",
+     "text": "شوفها بدون اسم: الـsole للخارج، بعيد عن الخط. أي حركة؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L135",
+     "idx": 135,
+     "speaker": "Salem",
+     "text": "Eversion. وإذا نحوه، Inversion. الخط ما يختلف، اللي تغير اتجاه الباطن.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 7
+  },
+  "18": {
+   "scene": 18,
+   "lines": [
+    {
+     "lineId": "L136",
+     "idx": 136,
+     "speaker": "Rashid",
+     "text": "وش اسم الحركة هذي؟",
+     "pauseAfter": 1,
+     "gapAfter": 1,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L137",
+     "idx": 137,
+     "speaker": "Salem",
+     "text": "مدري.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L138",
+     "idx": 138,
+     "speaker": "Rashid",
+     "text": "إلا سويتها! كتوفك ارتفعت؛ هذي Elevation. والحين نزلت: Depression.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L139",
+     "idx": 139,
+     "speaker": "Rashid",
+     "text": "Elevation باتجاه Superior؛ Depression باتجاه Inferior. شوف الذراعين؛ ما تحركوا للجنب.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L140",
+     "idx": 140,
+     "speaker": "Salem",
+     "text": "أجل مو Abduction. الكتف نفسه ارتفع.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L141",
+     "idx": 141,
+     "speaker": "Rashid",
+     "text": "والـmandible نفس الزوج: ينزل ونفتح الفم، Depression. يرتفع ونقفل الفم، Elevation.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L142",
+     "idx": 142,
+     "speaker": "Salem",
+     "text": "عاد هذا إذا بدأ يفتح فمه، ما يوقف.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L143",
+     "idx": 143,
+     "speaker": "Rashid",
+     "text": "أنت ولا النموذج؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L144",
+     "idx": 144,
+     "speaker": "Salem",
+     "text": "خلّنا في المثال.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L145",
+     "idx": 145,
+     "speaker": "Rashid",
+     "text": "فتح الفم بنزول الـmandible. أي حركة؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L146",
+     "idx": 146,
+     "speaker": "Salem",
+     "text": "Depression. وقدام وورا كانت Protraction وRetraction.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 11
+  },
+  "19": {
+   "scene": 19,
+   "lines": [
+    {
+     "lineId": "L147",
+     "idx": 147,
+     "speaker": "Salem",
+     "text": "القروب ضبط. خلّنا نشوف إذا الكلام ينفع برّا.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L148",
+     "idx": 148,
+     "speaker": "Noura",
+     "text": "لاعب كرة عمره اثنين وعشرين. التوى الـright ankle في المباراة. الطبيب طلب منه يوجه باطن القدم للخارج، بعيد عن الـmidline. وش اسم الحركة المطلوبة؟",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L149",
+     "idx": 149,
+     "speaker": "Rashid",
+     "text": "Inversion،Eversion،Dorsiflexion، أو Plantar flexion. وقف لحظة؛ لا تتبع شكل الالتواء.",
+     "pauseAfter": 3,
+     "gapAfter": 3,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L150",
+     "idx": 150,
+     "speaker": "Salem",
+     "text": "كنت بقول Inversion. بس… ما قالوا كيف التوى أصلاً.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L151",
+     "idx": 151,
+     "speaker": "Rashid",
+     "text": "اقرأ الحركة اللي طلبها الطبيب. شوف الـsole؛ وين يواجه؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L152",
+     "idx": 152,
+     "speaker": "Salem",
+     "text": "للخارج، بعيد عن الـmidline. Eversion؛ الخيار B.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L153",
+     "idx": 153,
+     "speaker": "Rashid",
+     "text": "Inversion نحو الخط. Dorsiflexion وPlantar flexion غير؛ تقرّب مقدمة القدم للساق أو توجهها بعيدًا، مو ميل الـsole للجانب.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L154",
+     "idx": 154,
+     "speaker": "Noura",
+     "text": "والسؤال يقول لفحص الـlateral ankle structures. اسم الحركة Eversion، لكن هالحركة وحدها ما تثبت سلامة الـlateral ligaments؛ هذي تقاوم زيادة Inversion، والفحص يحتاج اختبارات مناسبة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L155",
+     "idx": 155,
+     "speaker": "Salem",
+     "text": "أجل أسمّي الحركة، ما أطلع تشخيص من اسمها.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L156",
+     "idx": 156,
+     "speaker": "Rashid",
+     "text": "هذا المطلوب. لا نزود على معطيات السؤال.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 10
+  },
+  "20": {
+   "scene": 20,
+   "lines": [
+    {
+     "lineId": "L157",
+     "idx": 157,
+     "speaker": "Rashid",
+     "text": "طيب يا مدير القروب. أعطه أمر ينفهم.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L158",
+     "idx": 158,
+     "speaker": "Salem",
+     "text": "الـright arm حق صاحب الجسم؛ سوّ Extension عند الـelbow، وبعدها Abduction عند الـshoulder، للجنب. وبعدين Adduction؛ رجّع الذراع باتجاه الـmidline.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L159",
+     "idx": 159,
+     "speaker": "Rashid",
+     "text": "الحين يعرف أي طرف، وأي مفصل، وأي اتجاه.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L160",
+     "idx": 160,
+     "speaker": "Salem",
+     "text": "ويوم رجع، بدون موّال. ترى فهمنا.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L161",
+     "idx": 161,
+     "speaker": "Rashid",
+     "text": "وهذي علامة على خلف الـright forearm، أبعد من الـelbow باتجاه اليد. وصفها؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L162",
+     "idx": 162,
+     "speaker": "Salem",
+     "text": "Posterior، وDistal للـelbow. وعلامة على سطح الجلد: Superficial.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L163",
+     "idx": 163,
+     "speaker": "Rashid",
+     "text": "من الوقفة للمقطع للمكان للحركة. نفس الجسم؛ بس صار وصفك واضح.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 7
+  },
+  "21": {
+   "scene": 21,
+   "lines": [
+    {
+     "lineId": "L164",
+     "idx": 164,
+     "speaker": "Rashid",
+     "text": "قبل تقفل القروب، اختبار المدير. جاوب قبل الاسم. نسيج تحت الـmicroscope؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L165",
+     "idx": 165,
+     "speaker": "Salem",
+     "text": "Histology.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L166",
+     "idx": 166,
+     "speaker": "Rashid",
+     "text": "سطح فصل قدام عن ورا؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L167",
+     "idx": 167,
+     "speaker": "Salem",
+     "text": "Coronal، أو Frontal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L168",
+     "idx": 168,
+     "speaker": "Rashid",
+     "text": "يمين ويسار، لكنه مو بالنص؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L169",
+     "idx": 169,
+     "speaker": "Salem",
+     "text": "Sagittal، مو Midsagittal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L170",
+     "idx": 170,
+     "speaker": "Rashid",
+     "text": "الـhand بالنسبة للـelbow؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L171",
+     "idx": 171,
+     "speaker": "Salem",
+     "text": "Distal.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L172",
+     "idx": 172,
+     "speaker": "Rashid",
+     "text": "الكف يرجع قدام بدوران الـforearm، في Anatomical position؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L173",
+     "idx": 173,
+     "speaker": "Salem",
+     "text": "Supination.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L174",
+     "idx": 174,
+     "speaker": "Rashid",
+     "text": "الذراع لفّ حول محوره؛ سطحه الأمامي نحو الـmidline؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L175",
+     "idx": 175,
+     "speaker": "Salem",
+     "text": "Medial rotation.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L176",
+     "idx": 176,
+     "speaker": "Rashid",
+     "text": "الـdorsum يقرب من الساق؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L177",
+     "idx": 177,
+     "speaker": "Salem",
+     "text": "Dorsiflexion.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L178",
+     "idx": 178,
+     "speaker": "Rashid",
+     "text": "الـsole يميل بعيد عن الـmidline؟",
+     "pauseAfter": 2,
+     "gapAfter": 2,
+     "gapSource": "script-retrieval-pause",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L179",
+     "idx": 179,
+     "speaker": "Salem",
+     "text": "Eversion.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L180",
+     "idx": 180,
+     "speaker": "Rashid",
+     "text": "الحين أي وصف: حدد المرجع، ثم العلاقة أو الحركة.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    },
+    {
+     "lineId": "L181",
+     "idx": 181,
+     "speaker": "Salem",
+     "text": "تم. وأي واحد بيقول «هنا»… يحدد وين، قبل ما يرسل.",
+     "pauseAfter": 0,
+     "gapAfter": 0.35,
+     "gapSource": "directed-conversational",
+     "status": "PENDING"
+    }
+   ],
+   "duration": 0,
+   "status": "pending",
+   "linesFinal": 0,
+   "linesTotal": 18
+  }
+ }
+}

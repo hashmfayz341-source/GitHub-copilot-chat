@@ -1,0 +1,13 @@
+{
+  "_doc": "Conversational beat gaps (seconds) AFTER each line, by line idx. These are directing decisions, not script text. A scripted retrieval pause from the Actor Script ([وقفة ثانية] etc.) always wins over the conversational default — those are instructions, these are rhythm.",
+  "default": 0.35,
+  "byLine": {
+    "1": 0.15, "2": 0.20, "3": 0.25, "4": 0.30,
+    "5": 0.55, "6": 0.60, "7": 0.35, "8": 0.0
+  },
+  "_notes": {
+    "5": "beat before Noura's dry jab lands",
+    "6": "beat after the punchline, before Rashid resumes teaching",
+    "8": "scene-final, no trailing gap"
+  }
+}
