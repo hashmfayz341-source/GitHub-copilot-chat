@@ -165,7 +165,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene02/rashid_009_take1.mp3",
+     "duration": 9.953,
+     "start": 0,
+     "end": 9.953,
+     "startFrame": 0,
+     "endFrame": 299
     },
     {
      "lineId": "L010",
@@ -175,7 +181,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene02/rashid_010_take1.mp3",
+     "duration": 5.721,
+     "start": 10.303,
+     "end": 16.024,
+     "startFrame": 309,
+     "endFrame": 481
     },
     {
      "lineId": "L011",
@@ -185,7 +197,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene02/salem_011_elevenlabs_take1.mp3",
+     "duration": 1.881,
+     "start": 16.374,
+     "end": 18.255,
+     "startFrame": 491,
+     "endFrame": 548
     },
     {
      "lineId": "L012",
@@ -195,7 +213,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene02/rashid_012_elevenlabs_take1.mp3",
+     "duration": 10.606,
+     "start": 18.605,
+     "end": 29.211,
+     "startFrame": 558,
+     "endFrame": 876
     },
     {
      "lineId": "L013",
@@ -205,7 +229,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene02/salem_013_elevenlabs_take1.mp3",
+     "duration": 2.038,
+     "start": 29.561,
+     "end": 31.599,
+     "startFrame": 887,
+     "endFrame": 948
     },
     {
      "lineId": "L014",
@@ -215,7 +245,13 @@
      "pauseAfter": 2,
      "gapAfter": 2,
      "gapSource": "script-retrieval-pause",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene02/rashid_014_elevenlabs_take1.mp3",
+     "duration": 5.146,
+     "start": 31.949,
+     "end": 37.095,
+     "startFrame": 958,
+     "endFrame": 1113
     },
     {
      "lineId": "L015",
@@ -225,13 +261,20 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene02/salem_015_elevenlabs_take1.mp3",
+     "duration": 2.691,
+     "start": 39.095,
+     "end": 41.786,
+     "startFrame": 1173,
+     "endFrame": 1254
     }
    ],
-   "duration": 0,
-   "status": "pending",
-   "linesFinal": 0,
-   "linesTotal": 7
+   "duration": 42.136,
+   "status": "ready",
+   "linesFinal": 7,
+   "linesTotal": 7,
+   "durationInFrames": 1265
   },
   "3": {
    "scene": 3,
