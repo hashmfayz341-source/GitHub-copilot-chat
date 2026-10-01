@@ -44,6 +44,12 @@ export const PatientModel: React.FC<{
   highlightPulse?: number;
   /** vertical midline reference */
   showMidline?: boolean;
+  /**
+   * Palm orientation. Anatomical position requires palms facing FORWARD
+   * (forearms supinated); 'medial' is the natural standing pose the scene
+   * corrects away from. null keeps the plain hand used elsewhere.
+   */
+  palms?: 'forward' | 'medial' | null;
   scale?: number;
   x?: number;
   y?: number;
@@ -56,6 +62,7 @@ export const PatientModel: React.FC<{
   highlight = null,
   highlightPulse = 0,
   showMidline = false,
+  palms = null,
   scale = 1,
   x = 0,
   y = 0,
@@ -116,6 +123,23 @@ export const PatientModel: React.FC<{
         <g transform={`translate(${hd.x} ${handY})`}>
           {hot > 0 ? <circle r={34} fill={colorAR.accent} opacity={0.22 * hot} /> : null}
           <ellipse rx={20 * hd.k} ry={23} fill={colorAR.skin} stroke={colorAR.skinLine} strokeWidth={2} />
+          {/* Which face of the hand we see. Palm forward is the anatomical
+              position; the creases read as palm, the knuckles as the back. */}
+          {palms === 'forward' ? (
+            <g opacity={0.9}>
+              <ellipse rx={13 * hd.k} ry={16} fill={colorAR.skinLight} opacity={0.85} />
+              <g stroke={colorAR.skinLine} strokeWidth={1.5} fill="none" strokeLinecap="round" opacity={0.75}>
+                <path d={`M ${-7 * hd.k} -6 Q 0 -1 ${6 * hd.k} -7`} />
+                <path d={`M ${-7 * hd.k} 1 Q 0 6 ${6 * hd.k} 0`} />
+              </g>
+            </g>
+          ) : palms === 'medial' ? (
+            <g opacity={0.8}>
+              {[-6, 0, 6].map((dx) => (
+                <circle key={dx} cx={dx * hd.k} cy={-7} r={2.6} fill={colorAR.skinLine} opacity={0.6} />
+              ))}
+            </g>
+          ) : null}
           {/* silent reaction only — body parts never speak, and never from behind */}
           {handsGlance * front > 0.02 ? (
             <g opacity={handsGlance * front}>

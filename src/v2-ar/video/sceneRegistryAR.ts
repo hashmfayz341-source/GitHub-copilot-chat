@@ -1,6 +1,7 @@
 import React from 'react';
 import {SC01_GroupRight} from '../scenes/SC01_GroupRight';
 import {SC02_ScaleStory} from '../scenes/SC02_ScaleStory';
+import {SC03_AnatomicalPosition} from '../scenes/SC03_AnatomicalPosition';
 import {sceneAR, sceneFramesAR, sceneReadyAR} from '../timing/beats-ar';
 
 /**
@@ -30,7 +31,7 @@ export const SCENES_AR: SceneMetaAR[] = [
    purpose: 'تعريف العلم الحديث ومعنى Histology/Cytology عبر تغيّر مستوى النظر.',
    memoryHook: 'كل ما قرّبت الصورة، دخل أعضاء جدد في القروب.',
    misconception: 'الـAnatomy ليست بالضرورة قطعًا فعليًا.'},
-  {scene: 3, id: 'sc03-position', titleAr: 'ثبّت الوقفة… قبل ما تعطي أوامر', terms: ['Anatomical position'],
+  {scene: 3, component: SC03_AnatomicalPosition, id: 'sc03-position', titleAr: 'ثبّت الوقفة… قبل ما تعطي أوامر', terms: ['Anatomical position'],
    purpose: 'الوقفة المرجعية ثابتة حتى لو تغيّرت وضعية المريض.',
    memoryHook: 'سالم هو من يلاحظ أن الكفوف غلط.',
    misconception: 'المرجع يتغيّر لو انسدح المريض.'},

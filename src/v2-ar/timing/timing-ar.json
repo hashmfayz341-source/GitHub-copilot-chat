@@ -287,7 +287,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/rashid_016_elevenlabs_take1.mp3",
+     "duration": 7.314,
+     "start": 0,
+     "end": 7.314,
+     "startFrame": 0,
+     "endFrame": 219
     },
     {
      "lineId": "L017",
@@ -297,7 +303,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/salem_017_elevenlabs_take1.mp3",
+     "duration": 1.228,
+     "start": 7.664,
+     "end": 8.892,
+     "startFrame": 230,
+     "endFrame": 267
     },
     {
      "lineId": "L018",
@@ -307,7 +319,13 @@
      "pauseAfter": 1,
      "gapAfter": 1,
      "gapSource": "script-retrieval-pause",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/rashid_018_elevenlabs_take1.mp3",
+     "duration": 3.318,
+     "start": 9.242,
+     "end": 12.56,
+     "startFrame": 277,
+     "endFrame": 377
     },
     {
      "lineId": "L019",
@@ -317,7 +335,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/salem_019_elevenlabs_take1.mp3",
+     "duration": 2.038,
+     "start": 13.56,
+     "end": 15.598,
+     "startFrame": 407,
+     "endFrame": 468
     },
     {
      "lineId": "L020",
@@ -327,7 +351,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/rashid_020_elevenlabs_take1.mp3",
+     "duration": 7.158,
+     "start": 15.948,
+     "end": 23.106,
+     "startFrame": 478,
+     "endFrame": 693
     },
     {
      "lineId": "L021",
@@ -337,7 +367,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/noura_021_elevenlabs_take1.mp3",
+     "duration": 2.847,
+     "start": 23.456,
+     "end": 26.303,
+     "startFrame": 704,
+     "endFrame": 789
     },
     {
      "lineId": "L022",
@@ -347,7 +383,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/salem_022_elevenlabs_take1.mp3",
+     "duration": 1.411,
+     "start": 26.653,
+     "end": 28.064,
+     "startFrame": 800,
+     "endFrame": 842
     },
     {
      "lineId": "L023",
@@ -357,7 +399,13 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/rashid_023_elevenlabs_take1.mp3",
+     "duration": 6.348,
+     "start": 28.414,
+     "end": 34.762,
+     "startFrame": 852,
+     "endFrame": 1043
     },
     {
      "lineId": "L024",
@@ -367,7 +415,13 @@
      "pauseAfter": 2,
      "gapAfter": 2,
      "gapSource": "script-retrieval-pause",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/rashid_024_elevenlabs_take1.mp3",
+     "duration": 3.318,
+     "start": 35.112,
+     "end": 38.43,
+     "startFrame": 1053,
+     "endFrame": 1153
     },
     {
      "lineId": "L025",
@@ -377,13 +431,20 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene03/salem_025_elevenlabs_take1.mp3",
+     "duration": 0.601,
+     "start": 40.43,
+     "end": 41.031,
+     "startFrame": 1213,
+     "endFrame": 1231
     }
    ],
-   "duration": 0,
-   "status": "pending",
-   "linesFinal": 0,
-   "linesTotal": 10
+   "duration": 41.381,
+   "status": "ready",
+   "linesFinal": 10,
+   "linesTotal": 10,
+   "durationInFrames": 1242
   },
   "4": {
    "scene": 4,

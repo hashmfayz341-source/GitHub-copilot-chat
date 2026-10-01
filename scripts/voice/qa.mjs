@@ -19,7 +19,7 @@
  *   true peak       must stay at or under -1 dBTP.
  *   silence         no empty or near-empty take.
  */
-import {execFileSync} from 'node:child_process';
+import {execFileSync, spawnSync} from 'node:child_process';
 import fs from 'node:fs';
 import {measure} from './audio.mjs';
 
@@ -34,6 +34,29 @@ const RATE = [8.0, 22.0]; // chars/s — outside this, the audio is not this lin
 
 const f0 = (file) =>
   Number(execFileSync('python3', ['/tmp/claude-0/f0.py', file]).toString().match(/medF0\s+([\d.]+)/)?.[1] ?? 0);
+
+/**
+ * Span from the first to the last sound, excluding the provider's leading and
+ * trailing padding. Rate must be measured over speech, not over the file: a
+ * short line with a long tail reads as impossibly slow otherwise, which is how
+ * a perfectly good take first got flagged.
+ */
+const speechSpan = (file, total) => {
+  // ffmpeg reports silencedetect on stderr, not stdout
+  const out =
+    spawnSync('ffmpeg', ['-v', 'info', '-i', file, '-af', 'silencedetect=noise=-40dB:d=0.06', '-f', 'null', '-'], {
+      encoding: 'utf8',
+      maxBuffer: 32 * 1024 * 1024,
+    }).stderr ?? '';
+  const ev = [...out.matchAll(/silence_(start|end):\s*(-?[\d.]+)/g)].map((m) => [m[1], Number(m[2])]);
+  let lead = 0;
+  let tail = total;
+  if (ev.length && ev[0][0] === 'start' && ev[0][1] <= 0.02 && ev[1]?.[0] === 'end') lead = ev[1][1];
+  const last = ev[ev.length - 1];
+  const prev = ev[ev.length - 2];
+  if (last && last[0] === 'end' && Math.abs(last[1] - total) < 0.05 && prev?.[0] === 'start') tail = prev[1];
+  return Math.max(0.05, tail - lead);
+};
 
 const only = process.argv.slice(2).filter((a) => /^L\d{3}$/.test(a));
 const ids = only.length ? only : Object.keys(doc.takes);
@@ -50,11 +73,14 @@ for (const id of ids) {
     continue;
   }
   const m = measure(file);
-  const rate = l.text.length / m.duration;
+  const span = speechSpan(file, m.duration);
+  const rate = l.text.length / span;
   const pitch = f0(file);
   const [lo, hi] = F0[l.speaker];
   const issues = [];
-  if (rate < RATE[0] || rate > RATE[1]) issues.push(`speaking rate ${rate.toFixed(1)} c/s outside ${RATE[0]}-${RATE[1]} — audio likely not this line`);
+  // very short lines are dominated by onset/offset, so they get a wider band
+  const [lo2, hi2] = l.text.length < 14 ? [5.0, 26.0] : RATE;
+  if (rate < lo2 || rate > hi2) issues.push(`speaking rate ${rate.toFixed(1)} c/s over ${span.toFixed(2)}s of speech, outside ${lo2}-${hi2} — audio likely not this line`);
   if (pitch < lo || pitch > hi) issues.push(`median F0 ${pitch}Hz outside ${l.speaker} range ${lo}-${hi}`);
   // Peak is reported, not gated: the approved Scene 01 benchmark runs -0.2 to
   // -0.9 dBTP and must remain untouched, so a hard -1.0 gate would reject the
@@ -68,7 +94,7 @@ for (const id of ids) {
     pass++;
     t.qa = {
       method: 'rate+f0+peak',
-      rateCharsPerSec: Number(rate.toFixed(1)),
+      rateCharsPerSec: Number(rate.toFixed(1)), speechSpanSec: Number(span.toFixed(2)),
       medianF0Hz: pitch,
       truePeakDb: m.truePeakDb,
       peakWatch: m.truePeakDb > -1.0 ? 'within 1 dB of full scale' : undefined,
