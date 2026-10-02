@@ -1108,6 +1108,35 @@
     "checkedAt": "2026-10-02T08:25:25.765Z",
     "approvedAt": "2026-10-02T08:25:25.818Z"
    }
+  },
+  "L042": {
+   "lineId": "L042",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene06/salem_042_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene06/L042_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "casual",
+    "take": 1,
+    "producedAt": "2026-10-02T08:31:38.340Z"
+   },
+   "audio": {
+    "duration": 1.567,
+    "lufs": -14.8,
+    "truePeakDb": -1.2,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 18.4,
+    "speechSpanSec": 1.46,
+    "medianF0Hz": 179.8,
+    "truePeakDb": -1.7,
+    "checkedAt": "2026-10-02T08:31:38.772Z",
+    "approvedAt": "2026-10-02T08:31:38.827Z"
+   }
   }
  }
 }

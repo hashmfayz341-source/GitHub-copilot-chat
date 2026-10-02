@@ -733,7 +733,9 @@
      "pauseAfter": 0,
      "gapAfter": 0.35,
      "gapSource": "directed-conversational",
-     "status": "PENDING"
+     "status": "FINAL",
+     "audioFile": "audio/v2-ar/scene06/salem_042_elevenlabs_take1.mp3",
+     "duration": 1.567
     },
     {
      "lineId": "L043",
@@ -818,7 +820,7 @@
    ],
    "duration": 0,
    "status": "pending",
-   "linesFinal": 0,
+   "linesFinal": 1,
    "linesTotal": 9
   },
   "7": {
