@@ -3,6 +3,7 @@ import {SC01_GroupRight} from '../scenes/SC01_GroupRight';
 import {SC02_ScaleStory} from '../scenes/SC02_ScaleStory';
 import {SC03_AnatomicalPosition} from '../scenes/SC03_AnatomicalPosition';
 import {SC04_SagittalPlane} from '../scenes/SC04_SagittalPlane';
+import {SC05_CoronalTransverse} from '../scenes/SC05_CoronalTransverse';
 import {sceneAR, sceneFramesAR, sceneReadyAR} from '../timing/beats-ar';
 
 /**
@@ -40,7 +41,7 @@ export const SCENES_AR: SceneMetaAR[] = [
    purpose: 'الفصل بين اتجاه الـplane وموقعه، وبين plane وsection.',
    memoryHook: 'سالم يسأل عن اسم الجدار بعد إزاحته.',
    misconception: 'كل Sagittal ليس Midsagittal؛ ونصفا الجسم لا يعنيان تطابق الأعضاء.'},
-  {scene: 5, id: 'sc05-coronal-transverse', titleAr: 'لا تقول كل جدار نفس الجدار', terms: ['Coronal', 'Frontal', 'Transverse', 'Horizontal', 'Axial'],
+  {scene: 5, component: SC05_CoronalTransverse, id: 'sc05-coronal-transverse', titleAr: 'لا تقول كل جدار نفس الجدار', terms: ['Coronal', 'Frontal', 'Transverse', 'Horizontal', 'Axial'],
    purpose: 'التمييز بين المستويات بما تقسمه لا بكونها رأسية/أفقية.',
    memoryHook: 'ثلاث تسميات لنفس المستوى.',
    misconception: 'عمودي = نفس المستوى.'},

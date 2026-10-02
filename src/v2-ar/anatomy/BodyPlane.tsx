@@ -43,11 +43,22 @@ export const BodyPlane: React.FC<{
       {x: prj(-halfW, offset).x, y: bottom},
     ];
   } else {
+    /**
+     * A horizontal plane is edge-on to a level camera and collapses to a line,
+     * which reads as a cut mark rather than a surface. Tilting the view a little
+     * for this plane only — the body stays upright — is how every anatomy text
+     * draws it, and it is the difference between a surface and a scratch.
+     */
+    const TILT = 0.3;
+    const c0 = prj(-halfW, -halfD);
+    const c1 = prj(halfW, -halfD);
+    const c2 = prj(halfW, halfD);
+    const c3 = prj(-halfW, halfD);
     corners = [
-      {x: prj(-halfW, -halfD).x, y: offset},
-      {x: prj(halfW, -halfD).x, y: offset},
-      {x: prj(halfW, halfD).x, y: offset},
-      {x: prj(-halfW, halfD).x, y: offset},
+      {x: c0.x, y: offset - c0.z * TILT},
+      {x: c1.x, y: offset - c1.z * TILT},
+      {x: c2.x, y: offset - c2.z * TILT},
+      {x: c3.x, y: offset - c3.z * TILT},
     ];
   }
 

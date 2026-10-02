@@ -18,7 +18,7 @@
     "medianF0Hz": 183.9,
     "truePeakDb": -0.7,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:17.225Z"
+    "checkedAt": "2026-10-02T08:25:05.272Z"
    }
   },
   "L002": {
@@ -37,7 +37,7 @@
     "speechSpanSec": 2.83,
     "medianF0Hz": 136.2,
     "truePeakDb": -1.9,
-    "checkedAt": "2026-10-01T20:52:17.801Z"
+    "checkedAt": "2026-10-02T08:25:05.693Z"
    }
   },
   "L003": {
@@ -57,7 +57,7 @@
     "medianF0Hz": 205.1,
     "truePeakDb": -0.2,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:18.282Z"
+    "checkedAt": "2026-10-02T08:25:06.115Z"
    }
   },
   "L004": {
@@ -76,7 +76,7 @@
     "speechSpanSec": 2.93,
     "medianF0Hz": 130.1,
     "truePeakDb": -1.4,
-    "checkedAt": "2026-10-01T20:52:18.916Z"
+    "checkedAt": "2026-10-02T08:25:06.555Z"
    }
   },
   "L005": {
@@ -96,7 +96,7 @@
     "medianF0Hz": 183.9,
     "truePeakDb": -0.9,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:19.470Z"
+    "checkedAt": "2026-10-02T08:25:07.001Z"
    }
   },
   "L006": {
@@ -116,7 +116,7 @@
     "medianF0Hz": 250,
     "truePeakDb": -0.6,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:20.181Z"
+    "checkedAt": "2026-10-02T08:25:07.416Z"
    }
   },
   "L007": {
@@ -136,7 +136,7 @@
     "medianF0Hz": 133.3,
     "truePeakDb": -0.9,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:20.902Z"
+    "checkedAt": "2026-10-02T08:25:08.149Z"
    }
   },
   "L008": {
@@ -156,7 +156,7 @@
     "medianF0Hz": 190.5,
     "truePeakDb": -0.9,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:21.432Z"
+    "checkedAt": "2026-10-02T08:25:08.626Z"
    }
   },
   "L009": {
@@ -175,7 +175,7 @@
     "speechSpanSec": 9.95,
     "medianF0Hz": 141.6,
     "truePeakDb": -1.1,
-    "checkedAt": "2026-10-01T20:52:22.146Z"
+    "checkedAt": "2026-10-02T08:25:09.303Z"
    }
   },
   "L010": {
@@ -195,7 +195,7 @@
     "medianF0Hz": 150.9,
     "truePeakDb": -0.9,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:23.090Z"
+    "checkedAt": "2026-10-02T08:25:09.827Z"
    }
   },
   "L011": {
@@ -223,7 +223,7 @@
     "speechSpanSec": 1.79,
     "medianF0Hz": 195.1,
     "truePeakDb": -1.2,
-    "checkedAt": "2026-10-01T20:52:23.571Z"
+    "checkedAt": "2026-10-02T08:25:10.292Z"
    }
   },
   "L013": {
@@ -251,7 +251,7 @@
     "speechSpanSec": 2.04,
     "medianF0Hz": 173.9,
     "truePeakDb": -1.1,
-    "checkedAt": "2026-10-01T20:52:24.048Z"
+    "checkedAt": "2026-10-02T08:25:10.806Z"
    }
   },
   "L062": {
@@ -279,7 +279,7 @@
     "speechSpanSec": 5.88,
     "medianF0Hz": 280.7,
     "truePeakDb": -1.4,
-    "checkedAt": "2026-10-01T20:52:24.744Z"
+    "checkedAt": "2026-10-02T08:25:11.351Z"
    }
   },
   "L014": {
@@ -307,7 +307,7 @@
     "speechSpanSec": 5.05,
     "medianF0Hz": 132.2,
     "truePeakDb": -1.5,
-    "checkedAt": "2026-10-01T20:52:25.295Z"
+    "checkedAt": "2026-10-02T08:25:11.910Z"
    }
   },
   "L015": {
@@ -336,7 +336,7 @@
     "medianF0Hz": 195.1,
     "truePeakDb": -0.9,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:25.866Z"
+    "checkedAt": "2026-10-02T08:25:12.326Z"
    }
   },
   "L016": {
@@ -364,7 +364,7 @@
     "speechSpanSec": 7.31,
     "medianF0Hz": 139.1,
     "truePeakDb": -1.2,
-    "checkedAt": "2026-10-01T20:52:26.499Z"
+    "checkedAt": "2026-10-02T08:25:12.939Z"
    }
   },
   "L017": {
@@ -392,7 +392,7 @@
     "speechSpanSec": 1.23,
     "medianF0Hz": 177.8,
     "truePeakDb": -1.3,
-    "checkedAt": "2026-10-01T20:52:27.049Z"
+    "checkedAt": "2026-10-02T08:25:13.363Z"
    }
   },
   "L012": {
@@ -420,7 +420,7 @@
     "speechSpanSec": 10.5,
     "medianF0Hz": 135.6,
     "truePeakDb": -1.5,
-    "checkedAt": "2026-10-01T20:52:27.801Z"
+    "checkedAt": "2026-10-02T08:25:13.984Z"
    }
   },
   "L018": {
@@ -448,7 +448,7 @@
     "speechSpanSec": 3.18,
     "medianF0Hz": 131.1,
     "truePeakDb": -2.2,
-    "checkedAt": "2026-10-01T20:52:28.354Z"
+    "checkedAt": "2026-10-02T08:25:14.393Z"
    }
   },
   "L019": {
@@ -476,7 +476,7 @@
     "speechSpanSec": 1.82,
     "medianF0Hz": 179.8,
     "truePeakDb": -1,
-    "checkedAt": "2026-10-01T20:52:28.835Z"
+    "checkedAt": "2026-10-02T08:25:14.785Z"
    }
   },
   "L020": {
@@ -504,7 +504,7 @@
     "speechSpanSec": 6.92,
     "medianF0Hz": 134.5,
     "truePeakDb": -2.4,
-    "checkedAt": "2026-10-01T20:52:29.465Z"
+    "checkedAt": "2026-10-02T08:25:15.288Z"
    }
   },
   "L021": {
@@ -533,7 +533,7 @@
     "medianF0Hz": 280.7,
     "truePeakDb": -0.8,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:29.962Z"
+    "checkedAt": "2026-10-02T08:25:15.688Z"
    }
   },
   "L022": {
@@ -562,7 +562,7 @@
     "medianF0Hz": 200,
     "truePeakDb": -0.7,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:30.429Z"
+    "checkedAt": "2026-10-02T08:25:16.094Z"
    }
   },
   "L023": {
@@ -590,7 +590,7 @@
     "speechSpanSec": 6.26,
     "medianF0Hz": 130.6,
     "truePeakDb": -1.3,
-    "checkedAt": "2026-10-01T20:52:31.035Z"
+    "checkedAt": "2026-10-02T08:25:16.583Z"
    }
   },
   "L024": {
@@ -618,7 +618,7 @@
     "speechSpanSec": 3.32,
     "medianF0Hz": 148.1,
     "truePeakDb": -1.6,
-    "checkedAt": "2026-10-01T20:52:31.555Z"
+    "checkedAt": "2026-10-02T08:25:17.101Z"
    }
   },
   "L025": {
@@ -646,7 +646,7 @@
     "speechSpanSec": 0.51,
     "medianF0Hz": 170.2,
     "truePeakDb": -1.1,
-    "checkedAt": "2026-10-01T20:52:32.011Z"
+    "checkedAt": "2026-10-02T08:25:17.503Z"
    }
   },
   "L026": {
@@ -674,8 +674,7 @@
     "speechSpanSec": 2.08,
     "medianF0Hz": 205.1,
     "truePeakDb": -1.1,
-    "checkedAt": "2026-10-01T20:52:32.492Z",
-    "approvedAt": "2026-10-01T20:52:36.722Z"
+    "checkedAt": "2026-10-02T08:25:17.989Z"
    }
   },
   "L027": {
@@ -703,8 +702,7 @@
     "speechSpanSec": 6.46,
     "medianF0Hz": 135.6,
     "truePeakDb": -1.8,
-    "checkedAt": "2026-10-01T20:52:33.089Z",
-    "approvedAt": "2026-10-01T20:52:36.725Z"
+    "checkedAt": "2026-10-02T08:25:18.521Z"
    }
   },
   "L028": {
@@ -733,8 +731,7 @@
     "medianF0Hz": 192.8,
     "truePeakDb": -0.8,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:33.587Z",
-    "approvedAt": "2026-10-01T20:52:36.725Z"
+    "checkedAt": "2026-10-02T08:25:18.957Z"
    }
   },
   "L029": {
@@ -762,8 +759,7 @@
     "speechSpanSec": 8.42,
     "medianF0Hz": 132.2,
     "truePeakDb": -1.4,
-    "checkedAt": "2026-10-01T20:52:34.288Z",
-    "approvedAt": "2026-10-01T20:52:36.725Z"
+    "checkedAt": "2026-10-02T08:25:19.534Z"
    }
   },
   "L030": {
@@ -791,8 +787,7 @@
     "speechSpanSec": 2.7,
     "medianF0Hz": 197.5,
     "truePeakDb": -2.1,
-    "checkedAt": "2026-10-01T20:52:34.802Z",
-    "approvedAt": "2026-10-01T20:52:36.725Z"
+    "checkedAt": "2026-10-02T08:25:19.970Z"
    }
   },
   "L031": {
@@ -820,8 +815,7 @@
     "speechSpanSec": 10.12,
     "medianF0Hz": 140.4,
     "truePeakDb": -1.5,
-    "checkedAt": "2026-10-01T20:52:35.566Z",
-    "approvedAt": "2026-10-01T20:52:36.725Z"
+    "checkedAt": "2026-10-02T08:25:20.748Z"
    }
   },
   "L032": {
@@ -849,8 +843,7 @@
     "speechSpanSec": 3.18,
     "medianF0Hz": 141.6,
     "truePeakDb": -1.5,
-    "checkedAt": "2026-10-01T20:52:36.089Z",
-    "approvedAt": "2026-10-01T20:52:36.725Z"
+    "checkedAt": "2026-10-02T08:25:21.262Z"
    }
   },
   "L033": {
@@ -879,8 +872,241 @@
     "medianF0Hz": 192.8,
     "truePeakDb": -0.8,
     "peakWatch": "within 1 dB of full scale",
-    "checkedAt": "2026-10-01T20:52:36.646Z",
-    "approvedAt": "2026-10-01T20:52:36.725Z"
+    "checkedAt": "2026-10-02T08:25:21.743Z"
+   }
+  },
+  "L034": {
+   "lineId": "L034",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/salem_034_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L034_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "casual",
+    "take": 1,
+    "producedAt": "2026-10-02T08:24:55.481Z"
+   },
+   "audio": {
+    "duration": 2.691,
+    "lufs": -10.7,
+    "truePeakDb": -0.4,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 15.3,
+    "speechSpanSec": 2.62,
+    "medianF0Hz": 213.3,
+    "truePeakDb": -0.8,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-02T08:25:22.255Z",
+    "approvedAt": "2026-10-02T08:25:25.816Z"
+   }
+  },
+  "L035": {
+   "lineId": "L035",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/rashid_035_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L035_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "delivery": "calm",
+    "take": 1,
+    "producedAt": "2026-10-02T08:24:56.545Z"
+   },
+   "audio": {
+    "duration": 7.549,
+    "lufs": -16.7,
+    "truePeakDb": -1.9,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 13.2,
+    "speechSpanSec": 7.36,
+    "medianF0Hz": 135.6,
+    "truePeakDb": -2.4,
+    "checkedAt": "2026-10-02T08:25:22.868Z",
+    "approvedAt": "2026-10-02T08:25:25.818Z"
+   }
+  },
+  "L036": {
+   "lineId": "L036",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/salem_036_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L036_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "casual",
+    "take": 1,
+    "producedAt": "2026-10-02T08:24:57.525Z"
+   },
+   "audio": {
+    "duration": 4.598,
+    "lufs": -13.3,
+    "truePeakDb": -0.4,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 16,
+    "speechSpanSec": 4.49,
+    "medianF0Hz": 188.2,
+    "truePeakDb": -0.8,
+    "peakWatch": "within 1 dB of full scale",
+    "checkedAt": "2026-10-02T08:25:23.414Z",
+    "approvedAt": "2026-10-02T08:25:25.818Z"
+   }
+  },
+  "L037": {
+   "lineId": "L037",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/rashid_037_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L037_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "delivery": "calm",
+    "take": 1,
+    "producedAt": "2026-10-02T08:24:58.514Z"
+   },
+   "audio": {
+    "duration": 7.811,
+    "lufs": -17.5,
+    "truePeakDb": -1.5,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 12.4,
+    "speechSpanSec": 7.68,
+    "medianF0Hz": 135.6,
+    "truePeakDb": -1.9,
+    "checkedAt": "2026-10-02T08:25:23.990Z",
+    "approvedAt": "2026-10-02T08:25:25.818Z"
+   }
+  },
+  "L038": {
+   "lineId": "L038",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/salem_038_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L038_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "casual",
+    "take": 1,
+    "producedAt": "2026-10-02T08:24:59.310Z"
+   },
+   "audio": {
+    "duration": 2.691,
+    "lufs": -12.4,
+    "truePeakDb": -0.6,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 15.2,
+    "speechSpanSec": 2.69,
+    "medianF0Hz": 197.5,
+    "truePeakDb": -1.1,
+    "checkedAt": "2026-10-02T08:25:24.420Z",
+    "approvedAt": "2026-10-02T08:25:25.818Z"
+   }
+  },
+  "L039": {
+   "lineId": "L039",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/rashid_039_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L039_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "delivery": "question",
+    "take": 1,
+    "producedAt": "2026-10-02T08:25:00.082Z"
+   },
+   "audio": {
+    "duration": 3.553,
+    "lufs": -16.9,
+    "truePeakDb": -1.3,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 13.6,
+    "speechSpanSec": 3.31,
+    "medianF0Hz": 121.7,
+    "truePeakDb": -1.7,
+    "checkedAt": "2026-10-02T08:25:24.888Z",
+    "approvedAt": "2026-10-02T08:25:25.818Z"
+   }
+  },
+  "L040": {
+   "lineId": "L040",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/salem_040_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L040_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "TiWmvwCGis5iNuIkgk46",
+    "model": "eleven_v3",
+    "delivery": "confident",
+    "take": 1,
+    "producedAt": "2026-10-02T08:25:00.775Z"
+   },
+   "audio": {
+    "duration": 1.489,
+    "lufs": -12.6,
+    "truePeakDb": -1,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 14.6,
+    "speechSpanSec": 1.37,
+    "medianF0Hz": 192.8,
+    "truePeakDb": -1.4,
+    "checkedAt": "2026-10-02T08:25:25.290Z",
+    "approvedAt": "2026-10-02T08:25:25.818Z"
+   }
+  },
+  "L041": {
+   "lineId": "L041",
+   "status": "FINAL",
+   "audioFile": "audio/v2-ar/scene05/rashid_041_elevenlabs_take1.mp3",
+   "master": "audio-masters/scene05/L041_take1.mp3",
+   "provenance": {
+    "provider": "elevenlabs",
+    "voiceId": "9Pf8YHvYti7L3mjDAa4d",
+    "model": "eleven_v3",
+    "delivery": "curious",
+    "take": 1,
+    "producedAt": "2026-10-02T08:25:01.626Z"
+   },
+   "audio": {
+    "duration": 4.754,
+    "lufs": -16.1,
+    "truePeakDb": -1.2,
+    "gainAppliedDb": 0
+   },
+   "qa": {
+    "method": "rate+f0+peak",
+    "rateCharsPerSec": 14.1,
+    "speechSpanSec": 4.55,
+    "medianF0Hz": 140.4,
+    "truePeakDb": -1.6,
+    "checkedAt": "2026-10-02T08:25:25.765Z",
+    "approvedAt": "2026-10-02T08:25:25.818Z"
    }
   }
  }
