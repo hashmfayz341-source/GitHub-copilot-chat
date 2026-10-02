@@ -7,6 +7,7 @@ import {loadFonts} from './design-system/fonts';
 import {loadFontsAR} from './v2-ar/design/fonts-ar';
 import {CastLab} from './v2-ar/video/CastLab';
 import {MotionLab} from './v2-ar/video/MotionLab';
+import {MotionLab2} from './v2-ar/video/MotionLab2';
 import {AnatomyLectureAR, totalFramesAR} from './v2-ar/video/AnatomyLectureAR';
 import {SheetAR} from './v2-ar/video/SheetAR';
 import {renderableScenesAR} from './v2-ar/video/sceneRegistryAR';
@@ -31,6 +32,7 @@ export const Root: React.FC = () => (
       <Composition id="AnatomyLectureAR" component={AnatomyLectureAR} durationInFrames={totalFramesAR()} fps={FPS} width={1920} height={1080} />
       <Composition id="ar-CastLab" component={CastLab} durationInFrames={300} fps={FPS} width={1920} height={1080} />
       <Composition id="ar-MotionLab" component={MotionLab} durationInFrames={300} fps={FPS} width={1920} height={1080} />
+      <Composition id="ar-MotionLab2" component={MotionLab2} durationInFrames={300} fps={FPS} width={1920} height={1080} />
       {renderableScenesAR().map((s) => {
         const C = s.component!;
         return (
